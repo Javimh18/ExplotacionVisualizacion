@@ -1,0 +1,5168 @@
+{
+    "name": "Covid Cases Dashboard",
+    "theme": "carbonGrey10",
+    "version": 2304,
+    "eventGroups": [
+        {
+            "id": "model000001844dc17c16_00000002:1",
+            "widgetIds": [
+                "model000001844dc19e33_00000000",
+                "model000001844dc559eb_00000000",
+                "model000001844de1b192_00000000"
+            ]
+        }
+    ],
+    "properties": {
+        "customColors": {
+            "colors": [
+                "#1D2473",
+                "#161616",
+                "#6f6f6f"
+            ]
+        },
+        "defaultLocale": "Default",
+        "fredIsRed": true
+    },
+    "drillThrough": [],
+    "fredIsRed": {
+        "id": "model000001844dc17c15_00000000",
+        "colorMap": {
+            "Chongqing": {
+                "v": 0,
+                "s": 1
+            },
+            "Gansu": {
+                "v": 1,
+                "s": 1
+            },
+            "Guizhou": {
+                "v": 2,
+                "s": 1
+            },
+            "Hainan": {
+                "v": 3,
+                "s": 1
+            },
+            "Hunan": {
+                "v": 4,
+                "s": 1
+            },
+            "Jilin": {
+                "v": 5,
+                "s": 1
+            },
+            "Tianjin": {
+                "v": 6,
+                "s": 1
+            },
+            "(ningún valor)": {
+                "v": 7,
+                "s": 1
+            },
+            "Chicago": {
+                "v": 8,
+                "s": 1
+            },
+            "Arizona": {
+                "v": 9,
+                "s": 1
+            },
+            "British Columbia": {
+                "v": 10,
+                "s": 1
+            },
+            "San Diego County, CA": {
+                "v": 11,
+                "s": 1
+            },
+            "Ashland, NE": {
+                "v": 12,
+                "s": 1
+            },
+            "From Diamond Princess": {
+                "v": 13,
+                "s": 1
+            },
+            "Humboldt County, CA": {
+                "v": 14,
+                "s": 1
+            },
+            "Travis, CA (From Diamond Princess)": {
+                "v": 15,
+                "s": 1
+            },
+            "Western Australia": {
+                "v": 16,
+                "s": 1
+            },
+            "Tasmania": {
+                "v": 17,
+                "s": 1
+            },
+            "Grafton County, NH": {
+                "v": 18,
+                "s": 1
+            },
+            "Hillsborough, FL": {
+                "v": 19,
+                "s": 1
+            },
+            "New York City, NY": {
+                "v": 20,
+                "s": 1
+            },
+            "Placer County, CA": {
+                "v": 21,
+                "s": 1
+            },
+            "Maricopa County, AZ": {
+                "v": 22,
+                "s": 1
+            },
+            "Orange County, CA": {
+                "v": 23,
+                "s": 1
+            },
+            "New York County, NY": {
+                "v": 24,
+                "s": 1
+            },
+            "Summit County, CO": {
+                "v": 25,
+                "s": 1
+            },
+            "Calgary, Alberta": {
+                "v": 26,
+                "s": 1
+            },
+            "Fayette County, KY": {
+                "v": 27,
+                "s": 1
+            },
+            "Wayne County, PA": {
+                "v": 28,
+                "s": 1
+            },
+            "Grand Princess Cruise Ship": {
+                "v": 29,
+                "s": 1
+            },
+            "Douglas County, CO": {
+                "v": 30,
+                "s": 1
+            },
+            "Alameda County, CA": {
+                "v": 31,
+                "s": 1
+            },
+            "Edmonton, Alberta": {
+                "v": 32,
+                "s": 1
+            },
+            "Davis County, UT": {
+                "v": 33,
+                "s": 1
+            },
+            "Madera County, CA": {
+                "v": 34,
+                "s": 1
+            },
+            "Plymouth County, MA": {
+                "v": 35,
+                "s": 1
+            },
+            "Montgomery County, PA": {
+                "v": 36,
+                "s": 1
+            },
+            "Harford County, MD": {
+                "v": 37,
+                "s": 1
+            },
+            "Kittitas County, WA": {
+                "v": 38,
+                "s": 1
+            },
+            "Okaloosa County, FL": {
+                "v": 39,
+                "s": 1
+            },
+            "Shelby County, TN": {
+                "v": 40,
+                "s": 1
+            },
+            "St. Louis County, MO": {
+                "v": 41,
+                "s": 1
+            },
+            "Alberta": {
+                "v": 42,
+                "s": 1
+            },
+            "Quebec": {
+                "v": 43,
+                "s": 1
+            },
+            "Carver County, MN": {
+                "v": 44,
+                "s": 1
+            },
+            "Cherokee County, GA": {
+                "v": 45,
+                "s": 1
+            },
+            "Collin County, TX": {
+                "v": 46,
+                "s": 1
+            },
+            "Shasta County, CA": {
+                "v": 47,
+                "s": 1
+            },
+            "Massachusetts": {
+                "v": 0,
+                "s": 1
+            },
+            "Diamond Princess cruise ship": {
+                "v": 1,
+                "s": 1
+            },
+            "Georgia": {
+                "v": 2,
+                "s": 1
+            },
+            "Colorado": {
+                "v": 3,
+                "s": 1
+            },
+            "New Jersey": {
+                "v": 4,
+                "s": 1
+            },
+            "Texas": {
+                "v": 5,
+                "s": 1
+            },
+            "Maryland": {
+                "v": 6,
+                "s": 1
+            },
+            "South Carolina": {
+                "v": 7,
+                "s": 1
+            },
+            "Indiana": {
+                "v": 8,
+                "s": 1
+            },
+            "Kentucky": {
+                "v": 9,
+                "s": 1
+            },
+            "Minnesota": {
+                "v": 10,
+                "s": 1
+            },
+            "Rhode Island": {
+                "v": 11,
+                "s": 1
+            },
+            "Wisconsin": {
+                "v": 12,
+                "s": 1
+            },
+            "Hawaii": {
+                "v": 13,
+                "s": 1
+            },
+            "Kansas": {
+                "v": 14,
+                "s": 1
+            },
+            "Montana": {
+                "v": 15,
+                "s": 1
+            },
+            "South Dakota": {
+                "v": 16,
+                "s": 1
+            },
+            "Channel Islands": {
+                "v": 17,
+                "s": 1
+            },
+            "Saint Barthelemy": {
+                "v": 18,
+                "s": 1
+            },
+            "Virgin Islands, U.S.": {
+                "v": 19,
+                "s": 1
+            },
+            "Aruba": {
+                "v": 20,
+                "s": 1
+            },
+            "Montserrat": {
+                "v": 21,
+                "s": 1
+            },
+            "Isle of Man": {
+                "v": 22,
+                "s": 1
+            },
+            "American Samoa": {
+                "v": 23,
+                "s": 1
+            },
+            "External territories": {
+                "v": 24,
+                "s": 1
+            },
+            "Nunavut": {
+                "v": 25,
+                "s": 1
+            },
+            "Anguilla": {
+                "v": 26,
+                "s": 1
+            },
+            "Saint Pierre and Miquelon": {
+                "v": 27,
+                "s": 1
+            },
+            "Basilicata": {
+                "v": 28,
+                "s": 1
+            },
+            "Brandenburg": {
+                "v": 29,
+                "s": 1
+            },
+            "C. Valenciana": {
+                "v": 30,
+                "s": 1
+            },
+            "Canarias": {
+                "v": 31,
+                "s": 1
+            },
+            "Hessen": {
+                "v": 32,
+                "s": 1
+            },
+            "Lazio": {
+                "v": 33,
+                "s": 1
+            },
+            "Marche": {
+                "v": 34,
+                "s": 1
+            },
+            "Pais Vasco": {
+                "v": 35,
+                "s": 1
+            },
+            "Saarland": {
+                "v": 36,
+                "s": 1
+            },
+            "Sachsen-Anhalt": {
+                "v": 37,
+                "s": 1
+            },
+            "Sardegna": {
+                "v": 38,
+                "s": 1
+            },
+            "Thuringen": {
+                "v": 39,
+                "s": 1
+            },
+            "Umbria": {
+                "v": 40,
+                "s": 1
+            },
+            "Valle d'Aosta": {
+                "v": 41,
+                "s": 1
+            },
+            "Veneto": {
+                "v": 42,
+                "s": 1
+            },
+            "Unknown": {
+                "v": 43,
+                "s": 1
+            },
+            "Acre": {
+                "v": 44,
+                "s": 1
+            },
+            "Amazonas": {
+                "v": 45,
+                "s": 1
+            },
+            "Araucania": {
+                "v": 46,
+                "s": 1
+            },
+            "Atacama": {
+                "v": 47,
+                "s": 1
+            },
+            "Baja California": {
+                "v": 0,
+                "s": 1
+            },
+            "Campeche": {
+                "v": 1,
+                "s": 1
+            },
+            "Chiapas": {
+                "v": 2,
+                "s": 1
+            },
+            "Colima": {
+                "v": 3,
+                "s": 1
+            },
+            "Distrito Federal": {
+                "v": 4,
+                "s": 1
+            },
+            "Hidalgo": {
+                "v": 5,
+                "s": 1
+            },
+            "Jalisco": {
+                "v": 6,
+                "s": 1
+            },
+            "Los Rios": {
+                "v": 7,
+                "s": 1
+            },
+            "Maranhao": {
+                "v": 8,
+                "s": 1
+            },
+            "Mato Grosso do Sul": {
+                "v": 9,
+                "s": 1
+            },
+            "Metropolitana": {
+                "v": 10,
+                "s": 1
+            },
+            "Michoacan": {
+                "v": 11,
+                "s": 1
+            },
+            "Nayarit": {
+                "v": 12,
+                "s": 1
+            },
+            "Para": {
+                "v": 13,
+                "s": 1
+            },
+            "Pernambuco": {
+                "v": 14,
+                "s": 1
+            },
+            "Puebla": {
+                "v": 15,
+                "s": 1
+            },
+            "Queretaro": {
+                "v": 16,
+                "s": 1
+            },
+            "Rio Grande do Sul": {
+                "v": 17,
+                "s": 1
+            },
+            "Rondonia": {
+                "v": 18,
+                "s": 1
+            },
+            "San Luis Potosi": {
+                "v": 19,
+                "s": 1
+            },
+            "Tabasco": {
+                "v": 20,
+                "s": 1
+            },
+            "Tocantins": {
+                "v": 21,
+                "s": 1
+            },
+            "Apurimac": {
+                "v": 22,
+                "s": 1
+            },
+            "Callao": {
+                "v": 23,
+                "s": 1
+            },
+            "Cundinamarca": {
+                "v": 24,
+                "s": 1
+            },
+            "Cusco": {
+                "v": 25,
+                "s": 1
+            },
+            "Gifu": {
+                "v": 26,
+                "s": 1
+            },
+            "Gunma": {
+                "v": 27,
+                "s": 1
+            },
+            "Huancavelica": {
+                "v": 28,
+                "s": 1
+            },
+            "Loreto": {
+                "v": 29,
+                "s": 1
+            },
+            "Magdalena": {
+                "v": 30,
+                "s": 1
+            },
+            "Meta": {
+                "v": 31,
+                "s": 1
+            },
+            "Narino": {
+                "v": 32,
+                "s": 1
+            },
+            "Okayama": {
+                "v": 33,
+                "s": 1
+            },
+            "Port Quarantine": {
+                "v": 34,
+                "s": 1
+            },
+            "Puno": {
+                "v": 35,
+                "s": 1
+            },
+            "Quindio": {
+                "v": 36,
+                "s": 1
+            },
+            "San Martin": {
+                "v": 37,
+                "s": 1
+            },
+            "Santander": {
+                "v": 38,
+                "s": 1
+            },
+            "Tacna": {
+                "v": 39,
+                "s": 1
+            },
+            "Tottori": {
+                "v": 40,
+                "s": 1
+            },
+            "Vaupes": {
+                "v": 41,
+                "s": 1
+            },
+            "Yamaguchi": {
+                "v": 42,
+                "s": 1
+            },
+            "Yamanashi": {
+                "v": 43,
+                "s": 1
+            },
+            "Guainia": {
+                "v": 44,
+                "s": 1
+            },
+            "Chechen Republic": {
+                "v": 45,
+                "s": 1
+            },
+            "Kamchatka Krai": {
+                "v": 46,
+                "s": 1
+            },
+            "Krasnodar Krai": {
+                "v": 47,
+                "s": 1
+            },
+            "Lipetsk Oblast": {
+                "v": 0,
+                "s": 1
+            },
+            "Luhansk Oblast": {
+                "v": 1,
+                "s": 1
+            },
+            "North Ossetia - Alania Republic": {
+                "v": 2,
+                "s": 1
+            },
+            "Novgorod Oblast": {
+                "v": 3,
+                "s": 1
+            },
+            "Novosibirsk Oblast": {
+                "v": 4,
+                "s": 1
+            },
+            "Poltava Oblast": {
+                "v": 5,
+                "s": 1
+            },
+            "Primorsky Krai": {
+                "v": 6,
+                "s": 1
+            },
+            "Sakha (Yakutiya) Republic": {
+                "v": 7,
+                "s": 1
+            },
+            "Saratov Oblast": {
+                "v": 8,
+                "s": 1
+            },
+            "Sevastopol*": {
+                "v": 9,
+                "s": 1
+            },
+            "Sumy Oblast": {
+                "v": 10,
+                "s": 1
+            },
+            "Sverdlovsk Oblast": {
+                "v": 11,
+                "s": 1
+            },
+            "Tatarstan Republic": {
+                "v": 12,
+                "s": 1
+            },
+            "Tyumen Oblast": {
+                "v": 13,
+                "s": 1
+            },
+            "Ulyanovsk Oblast": {
+                "v": 14,
+                "s": 1
+            },
+            "Vinnytsia Oblast": {
+                "v": 15,
+                "s": 1
+            },
+            "Vologda Oblast": {
+                "v": 16,
+                "s": 1
+            },
+            "Zabaykalsky Krai": {
+                "v": 17,
+                "s": 1
+            },
+            "Zaporizhia Oblast": {
+                "v": 18,
+                "s": 1
+            },
+            "Dalarna": {
+                "v": 19,
+                "s": 1
+            },
+            "Jamtland Harjedalen": {
+                "v": 20,
+                "s": 1
+            },
+            "Orebro": {
+                "v": 21,
+                "s": 1
+            },
+            "Ostergotland": {
+                "v": 22,
+                "s": 1
+            },
+            "Uppsala": {
+                "v": 23,
+                "s": 1
+            },
+            "Vasterbotten": {
+                "v": 24,
+                "s": 1
+            },
+            "Vasternorrland": {
+                "v": 25,
+                "s": 1
+            },
+            "Andaman and Nicobar Islands": {
+                "v": 26,
+                "s": 1
+            },
+            "Bihar": {
+                "v": 27,
+                "s": 1
+            },
+            "Chhattisgarh": {
+                "v": 28,
+                "s": 1
+            },
+            "Dadar Nagar Haveli": {
+                "v": 29,
+                "s": 1
+            },
+            "Jammu and Kashmir": {
+                "v": 30,
+                "s": 1
+            },
+            "Madhya Pradesh": {
+                "v": 31,
+                "s": 1
+            },
+            "Maharashtra": {
+                "v": 32,
+                "s": 1
+            },
+            "Nagaland": {
+                "v": 33,
+                "s": 1
+            },
+            "Odisha": {
+                "v": 34,
+                "s": 1
+            },
+            "Northern Ireland": {
+                "v": 35,
+                "s": 1
+            },
+            "Gelderland": {
+                "v": 36,
+                "s": 1
+            },
+            "Noord-Brabant": {
+                "v": 37,
+                "s": 1
+            },
+            "Overijssel": {
+                "v": 38,
+                "s": 1
+            },
+            "Utrecht": {
+                "v": 39,
+                "s": 1
+            },
+            "Zuid-Holland": {
+                "v": 40,
+                "s": 1
+            },
+            "Lakshadweep": {
+                "v": 41,
+                "s": 1
+            },
+            "Flemish Brabant": {
+                "v": 42,
+                "s": 1
+            },
+            "Hainaut": {
+                "v": 43,
+                "s": 1
+            },
+            "Anhui": {
+                "v": 44,
+                "s": 1
+            },
+            "Beijing": {
+                "v": 45,
+                "s": 1
+            },
+            "Guangdong": {
+                "v": 46,
+                "s": 1
+            },
+            "Guangxi": {
+                "v": 47,
+                "s": 1
+            },
+            "Liaoning": {
+                "v": 0,
+                "s": 1
+            },
+            "Ningxia": {
+                "v": 1,
+                "s": 1
+            },
+            "Qinghai": {
+                "v": 2,
+                "s": 1
+            },
+            "Shanxi": {
+                "v": 3,
+                "s": 1
+            },
+            "Taiwan": {
+                "v": 4,
+                "s": 1
+            },
+            "California": {
+                "v": 5,
+                "s": 1
+            },
+            "South Australia": {
+                "v": 6,
+                "s": 1
+            },
+            "Boston, MA": {
+                "v": 7,
+                "s": 1
+            },
+            "Tempe, AZ": {
+                "v": 8,
+                "s": 1
+            },
+            "London, ON": {
+                "v": 9,
+                "s": 1
+            },
+            "Madison, WI": {
+                "v": 10,
+                "s": 1
+            },
+            "Cruise Ship": {
+                "v": 11,
+                "s": 1
+            },
+            "None": {
+                "v": 12,
+                "s": 1
+            },
+            "Omaha, NE (From Diamond Princess)": {
+                "v": 13,
+                "s": 1
+            },
+            "Lackland, TX (From Diamond Princess)": {
+                "v": 14,
+                "s": 1
+            },
+            "Montreal, QC": {
+                "v": 15,
+                "s": 1
+            },
+            "Providence, RI": {
+                "v": 16,
+                "s": 1
+            },
+            "San Mateo, CA": {
+                "v": 17,
+                "s": 1
+            },
+            "Sarasota, FL": {
+                "v": 18,
+                "s": 1
+            },
+            "Fulton County, GA": {
+                "v": 19,
+                "s": 1
+            },
+            "Washington County, OR": {
+                "v": 20,
+                "s": 1
+            },
+            "Berkeley, CA": {
+                "v": 21,
+                "s": 1
+            },
+            "Westchester County, NY": {
+                "v": 22,
+                "s": 1
+            },
+            "San Francisco County, CA": {
+                "v": 23,
+                "s": 1
+            },
+            "Clark County, NV": {
+                "v": 24,
+                "s": 1
+            },
+            "Santa Rosa County, FL": {
+                "v": 25,
+                "s": 1
+            },
+            "Unassigned Location, WA": {
+                "v": 26,
+                "s": 1
+            },
+            "Montgomery County, MD": {
+                "v": 27,
+                "s": 1
+            },
+            "Delaware County, PA": {
+                "v": 28,
+                "s": 1
+            },
+            "Douglas County, NE": {
+                "v": 29,
+                "s": 1
+            },
+            "Nassau County, NY": {
+                "v": 30,
+                "s": 1
+            },
+            "Santa Clara County, CA": {
+                "v": 31,
+                "s": 1
+            },
+            "Providence County, RI": {
+                "v": 32,
+                "s": 1
+            },
+            "Saratoga County, NY": {
+                "v": 33,
+                "s": 1
+            },
+            "Clark County, WA": {
+                "v": 34,
+                "s": 1
+            },
+            "Honolulu County, HI": {
+                "v": 35,
+                "s": 1
+            },
+            "Jackson County, OR": {
+                "v": 36,
+                "s": 1
+            },
+            "Kershaw County, SC": {
+                "v": 37,
+                "s": 1
+            },
+            "Santa Cruz County, CA": {
+                "v": 38,
+                "s": 1
+            },
+            "Fairfax County, VA": {
+                "v": 39,
+                "s": 1
+            },
+            "Douglas County, OR": {
+                "v": 40,
+                "s": 1
+            },
+            "Hudson County, NJ": {
+                "v": 41,
+                "s": 1
+            },
+            "Manatee County, FL": {
+                "v": 42,
+                "s": 1
+            },
+            "Marion County, OR": {
+                "v": 43,
+                "s": 1
+            },
+            "Riverside County, CA": {
+                "v": 44,
+                "s": 1
+            },
+            "Ulster County, NY": {
+                "v": 45,
+                "s": 1
+            },
+            "Bennington County, VT": {
+                "v": 46,
+                "s": 1
+            },
+            "Jefferson County, KY": {
+                "v": 47,
+                "s": 1
+            },
+            "Jefferson Parish, LA": {
+                "v": 0,
+                "s": 1
+            },
+            "Spartanburg County, SC": {
+                "v": 1,
+                "s": 1
+            },
+            "New York": {
+                "v": 2,
+                "s": 1
+            },
+            "Florida": {
+                "v": 3,
+                "s": 1
+            },
+            "Virginia": {
+                "v": 4,
+                "s": 1
+            },
+            "Nevada": {
+                "v": 5,
+                "s": 1
+            },
+            "Nebraska": {
+                "v": 6,
+                "s": 1
+            },
+            "Ohio": {
+                "v": 7,
+                "s": 1
+            },
+            "Louisiana": {
+                "v": 8,
+                "s": 1
+            },
+            "Missouri": {
+                "v": 9,
+                "s": 1
+            },
+            "Vermont": {
+                "v": 10,
+                "s": 1
+            },
+            "Alaska": {
+                "v": 11,
+                "s": 1
+            },
+            "Idaho": {
+                "v": 12,
+                "s": 1
+            },
+            "New Mexico": {
+                "v": 13,
+                "s": 1
+            },
+            "West Virginia": {
+                "v": 14,
+                "s": 1
+            },
+            "Wyoming": {
+                "v": 15,
+                "s": 1
+            },
+            "France": {
+                "v": 16,
+                "s": 1
+            },
+            "Gibraltar": {
+                "v": 17,
+                "s": 1
+            },
+            "United Kingdom": {
+                "v": 18,
+                "s": 1
+            },
+            "Saskatchewan": {
+                "v": 19,
+                "s": 1
+            },
+            "Grand Princess": {
+                "v": 20,
+                "s": 1
+            },
+            "French Guiana": {
+                "v": 21,
+                "s": 1
+            },
+            "Prince Edward Island": {
+                "v": 22,
+                "s": 1
+            },
+            "Netherlands": {
+                "v": 23,
+                "s": 1
+            },
+            "Curacao": {
+                "v": 24,
+                "s": 1
+            },
+            "Greenland": {
+                "v": 25,
+                "s": 1
+            },
+            "Bermuda": {
+                "v": 26,
+                "s": 1
+            },
+            "Northwest Territories": {
+                "v": 27,
+                "s": 1
+            },
+            "Saint Helena, Ascension and Tristan da Cunha": {
+                "v": 28,
+                "s": 1
+            },
+            "Recovered": {
+                "v": 29,
+                "s": 1
+            },
+            "Bonaire, Sint Eustatius and Saba": {
+                "v": 30,
+                "s": 1
+            },
+            "Abruzzo": {
+                "v": 31,
+                "s": 1
+            },
+            "Andalusia": {
+                "v": 32,
+                "s": 1
+            },
+            "Bremen": {
+                "v": 33,
+                "s": 1
+            },
+            "Castilla - La Mancha": {
+                "v": 34,
+                "s": 1
+            },
+            "Castilla y Leon": {
+                "v": 35,
+                "s": 1
+            },
+            "Catalonia": {
+                "v": 36,
+                "s": 1
+            },
+            "Emilia-Romagna": {
+                "v": 37,
+                "s": 1
+            },
+            "Friuli Venezia Giulia": {
+                "v": 38,
+                "s": 1
+            },
+            "Lombardia": {
+                "v": 39,
+                "s": 1
+            },
+            "Madrid": {
+                "v": 40,
+                "s": 1
+            },
+            "Melilla": {
+                "v": 41,
+                "s": 1
+            },
+            "Molise": {
+                "v": 42,
+                "s": 1
+            },
+            "Niedersachsen": {
+                "v": 43,
+                "s": 1
+            },
+            "Alagoas": {
+                "v": 44,
+                "s": 1
+            },
+            "Aysen": {
+                "v": 45,
+                "s": 1
+            },
+            "Baja California Sur": {
+                "v": 46,
+                "s": 1
+            },
+            "Ceara": {
+                "v": 47,
+                "s": 1
+            },
+            "Ciudad de Mexico": {
+                "v": 0,
+                "s": 1
+            },
+            "Coquimbo": {
+                "v": 1,
+                "s": 1
+            },
+            "Durango": {
+                "v": 2,
+                "s": 1
+            },
+            "Espirito Santo": {
+                "v": 3,
+                "s": 1
+            },
+            "Guanajuato": {
+                "v": 4,
+                "s": 1
+            },
+            "Magallanes": {
+                "v": 5,
+                "s": 1
+            },
+            "Paraiba": {
+                "v": 6,
+                "s": 1
+            },
+            "Piaui": {
+                "v": 7,
+                "s": 1
+            },
+            "Rio Grande do Norte": {
+                "v": 8,
+                "s": 1
+            },
+            "Sonora": {
+                "v": 9,
+                "s": 1
+            },
+            "Tarapaca": {
+                "v": 10,
+                "s": 1
+            },
+            "Tlaxcala": {
+                "v": 11,
+                "s": 1
+            },
+            "Veracruz": {
+                "v": 12,
+                "s": 1
+            },
+            "Akita": {
+                "v": 13,
+                "s": 1
+            },
+            "Arequipa": {
+                "v": 14,
+                "s": 1
+            },
+            "Ayacucho": {
+                "v": 15,
+                "s": 1
+            },
+            "Caldas": {
+                "v": 16,
+                "s": 1
+            },
+            "Capital District": {
+                "v": 17,
+                "s": 1
+            },
+            "Casanare": {
+                "v": 18,
+                "s": 1
+            },
+            "Chiba": {
+                "v": 19,
+                "s": 1
+            },
+            "Cordoba": {
+                "v": 20,
+                "s": 1
+            },
+            "Ehime": {
+                "v": 21,
+                "s": 1
+            },
+            "Fukushima": {
+                "v": 22,
+                "s": 1
+            },
+            "Hiroshima": {
+                "v": 23,
+                "s": 1
+            },
+            "Huanuco": {
+                "v": 24,
+                "s": 1
+            },
+            "Huila": {
+                "v": 25,
+                "s": 1
+            },
+            "Hyogo": {
+                "v": 26,
+                "s": 1
+            },
+            "Ibaraki": {
+                "v": 27,
+                "s": 1
+            },
+            "Kumamoto": {
+                "v": 28,
+                "s": 1
+            },
+            "La Guajira": {
+                "v": 29,
+                "s": 1
+            },
+            "Lambayeque": {
+                "v": 30,
+                "s": 1
+            },
+            "Lima": {
+                "v": 31,
+                "s": 1
+            },
+            "Mie": {
+                "v": 32,
+                "s": 1
+            },
+            "Niigata": {
+                "v": 33,
+                "s": 1
+            },
+            "Norte de Santander": {
+                "v": 34,
+                "s": 1
+            },
+            "Pasco": {
+                "v": 35,
+                "s": 1
+            },
+            "Putumayo": {
+                "v": 36,
+                "s": 1
+            },
+            "Saga": {
+                "v": 37,
+                "s": 1
+            },
+            "Shiga": {
+                "v": 38,
+                "s": 1
+            },
+            "Shimane": {
+                "v": 39,
+                "s": 1
+            },
+            "Shizuoka": {
+                "v": 40,
+                "s": 1
+            },
+            "Tochigi": {
+                "v": 41,
+                "s": 1
+            },
+            "Tokushima": {
+                "v": 42,
+                "s": 1
+            },
+            "Tolima": {
+                "v": 43,
+                "s": 1
+            },
+            "Toyama": {
+                "v": 44,
+                "s": 1
+            },
+            "Ucayali": {
+                "v": 45,
+                "s": 1
+            },
+            "Altai Republic": {
+                "v": 46,
+                "s": 1
+            },
+            "Arkhangelsk Oblast": {
+                "v": 47,
+                "s": 1
+            },
+            "Belgorod Oblast": {
+                "v": 0,
+                "s": 1
+            },
+            "Bryansk Oblast": {
+                "v": 1,
+                "s": 1
+            },
+            "Chernihiv Oblast": {
+                "v": 2,
+                "s": 1
+            },
+            "Ingushetia Republic": {
+                "v": 3,
+                "s": 1
+            },
+            "Jewish Autonomous Okrug": {
+                "v": 4,
+                "s": 1
+            },
+            "Kabardino-Balkarian Republic": {
+                "v": 5,
+                "s": 1
+            },
+            "Kaliningrad Oblast": {
+                "v": 6,
+                "s": 1
+            },
+            "Kaluga Oblast": {
+                "v": 7,
+                "s": 1
+            },
+            "Karelia Republic": {
+                "v": 8,
+                "s": 1
+            },
+            "Kemerovo Oblast": {
+                "v": 9,
+                "s": 1
+            },
+            "Kharkiv Oblast": {
+                "v": 10,
+                "s": 1
+            },
+            "Kherson Oblast": {
+                "v": 11,
+                "s": 1
+            },
+            "Kiev": {
+                "v": 12,
+                "s": 1
+            },
+            "Kirov Oblast": {
+                "v": 13,
+                "s": 1
+            },
+            "Krasnoyarsk Krai": {
+                "v": 14,
+                "s": 1
+            },
+            "Lviv Oblast": {
+                "v": 15,
+                "s": 1
+            },
+            "Mari El Republic": {
+                "v": 16,
+                "s": 1
+            },
+            "Nenets Autonomous Okrug": {
+                "v": 17,
+                "s": 1
+            },
+            "Nizhny Novgorod Oblast": {
+                "v": 18,
+                "s": 1
+            },
+            "Omsk Oblast": {
+                "v": 19,
+                "s": 1
+            },
+            "Orel Oblast": {
+                "v": 20,
+                "s": 1
+            },
+            "Penza Oblast": {
+                "v": 21,
+                "s": 1
+            },
+            "Saint Petersburg": {
+                "v": 22,
+                "s": 1
+            },
+            "Samara Oblast": {
+                "v": 23,
+                "s": 1
+            },
+            "Tver Oblast": {
+                "v": 24,
+                "s": 1
+            },
+            "Volyn Oblast": {
+                "v": 25,
+                "s": 1
+            },
+            "Blekinge": {
+                "v": 26,
+                "s": 1
+            },
+            "Halland": {
+                "v": 27,
+                "s": 1
+            },
+            "Kalmar": {
+                "v": 28,
+                "s": 1
+            },
+            "Kronoberg": {
+                "v": 29,
+                "s": 1
+            },
+            "Sormland": {
+                "v": 30,
+                "s": 1
+            },
+            "Vastmanland": {
+                "v": 31,
+                "s": 1
+            },
+            "Assam": {
+                "v": 32,
+                "s": 1
+            },
+            "Balochistan": {
+                "v": 33,
+                "s": 1
+            },
+            "Delhi": {
+                "v": 34,
+                "s": 1
+            },
+            "Gilgit-Baltistan": {
+                "v": 35,
+                "s": 1
+            },
+            "Goa": {
+                "v": 36,
+                "s": 1
+            },
+            "Himachal Pradesh": {
+                "v": 37,
+                "s": 1
+            },
+            "Punjab": {
+                "v": 38,
+                "s": 1
+            },
+            "Sikkim": {
+                "v": 39,
+                "s": 1
+            },
+            "Uttar Pradesh": {
+                "v": 40,
+                "s": 1
+            },
+            "West Bengal": {
+                "v": 41,
+                "s": 1
+            },
+            "Dadra and Nagar Haveli and Daman and Diu": {
+                "v": 42,
+                "s": 1
+            },
+            "England": {
+                "v": 43,
+                "s": 1
+            },
+            "Scotland": {
+                "v": 44,
+                "s": 1
+            },
+            "Flevoland": {
+                "v": 45,
+                "s": 1
+            },
+            "Friesland": {
+                "v": 46,
+                "s": 1
+            },
+            "Walloon Brabant": {
+                "v": 47,
+                "s": 1
+            },
+            "Wallis and Futuna": {
+                "v": 0,
+                "s": 1
+            },
+            "Henan": {
+                "v": 1,
+                "s": 1
+            },
+            "Hong Kong": {
+                "v": 2,
+                "s": 1
+            },
+            "Jiangxi": {
+                "v": 3,
+                "s": 1
+            },
+            "Macau": {
+                "v": 4,
+                "s": 1
+            },
+            "Shandong": {
+                "v": 5,
+                "s": 1
+            },
+            "Sichuan": {
+                "v": 6,
+                "s": 1
+            },
+            "Xinjiang": {
+                "v": 7,
+                "s": 1
+            },
+            "Ontario": {
+                "v": 8,
+                "s": 1
+            },
+            "Bavaria": {
+                "v": 9,
+                "s": 1
+            },
+            "Santa Clara, CA": {
+                "v": 10,
+                "s": 1
+            },
+            "Seattle, WA": {
+                "v": 11,
+                "s": 1
+            },
+            "San Benito, CA": {
+                "v": 12,
+                "s": 1
+            },
+            "San Antonio, TX": {
+                "v": 13,
+                "s": 1
+            },
+            "Unassigned Location (From Diamond Princess)": {
+                "v": 14,
+                "s": 1
+            },
+            "Cook County, IL": {
+                "v": 15,
+                "s": 1
+            },
+            "Umatilla, OR": {
+                "v": 16,
+                "s": 1
+            },
+            "Wake County, NC": {
+                "v": 17,
+                "s": 1
+            },
+            "Northern Territory": {
+                "v": 18,
+                "s": 1
+            },
+            "Bergen County, NJ": {
+                "v": 19,
+                "s": 1
+            },
+            "Fort Bend County, TX": {
+                "v": 20,
+                "s": 1
+            },
+            "Queens County, NY": {
+                "v": 21,
+                "s": 1
+            },
+            "Williamson County, TN": {
+                "v": 22,
+                "s": 1
+            },
+            "Floyd County, GA": {
+                "v": 23,
+                "s": 1
+            },
+            "Broward County, FL": {
+                "v": 24,
+                "s": 1
+            },
+            "Pinal County, AZ": {
+                "v": 25,
+                "s": 1
+            },
+            "Cobb County, GA": {
+                "v": 26,
+                "s": 1
+            },
+            "El Paso County, CO": {
+                "v": 27,
+                "s": 1
+            },
+            "Montgomery County, TX": {
+                "v": 28,
+                "s": 1
+            },
+            "Davidson County, TN": {
+                "v": 29,
+                "s": 1
+            },
+            "Fresno County, CA": {
+                "v": 30,
+                "s": 1
+            },
+            "Hendricks County, IN": {
+                "v": 31,
+                "s": 1
+            },
+            "Johnson County, KS": {
+                "v": 32,
+                "s": 1
+            },
+            "Spokane County, WA": {
+                "v": 33,
+                "s": 1
+            },
+            "Unassigned Location, VT": {
+                "v": 34,
+                "s": 1
+            },
+            "Unknown Location, MA": {
+                "v": 35,
+                "s": 1
+            },
+            "Volusia County, FL": {
+                "v": 36,
+                "s": 1
+            },
+            "Johnson County, IA": {
+                "v": 37,
+                "s": 1
+            },
+            "Oregon": {
+                "v": 38,
+                "s": 1
+            },
+            "Pennsylvania": {
+                "v": 39,
+                "s": 1
+            },
+            "Iowa": {
+                "v": 40,
+                "s": 1
+            },
+            "District of Columbia": {
+                "v": 41,
+                "s": 1
+            },
+            "Connecticut": {
+                "v": 42,
+                "s": 1
+            },
+            "Oklahoma": {
+                "v": 43,
+                "s": 1
+            },
+            "Arkansas": {
+                "v": 44,
+                "s": 1
+            },
+            "Delaware": {
+                "v": 45,
+                "s": 1
+            },
+            "Maine": {
+                "v": 46,
+                "s": 1
+            },
+            "Michigan": {
+                "v": 47,
+                "s": 1
+            },
+            "Mississippi": {
+                "v": 0,
+                "s": 1
+            },
+            "North Dakota": {
+                "v": 1,
+                "s": 1
+            },
+            "Denmark": {
+                "v": 2,
+                "s": 1
+            },
+            "St Martin": {
+                "v": 3,
+                "s": 1
+            },
+            "New Brunswick": {
+                "v": 4,
+                "s": 1
+            },
+            "Australian Capital Territory": {
+                "v": 5,
+                "s": 1
+            },
+            "Alabama": {
+                "v": 6,
+                "s": 1
+            },
+            "Puerto Rico": {
+                "v": 7,
+                "s": 1
+            },
+            "Guam": {
+                "v": 8,
+                "s": 1
+            },
+            "Newfoundland and Labrador": {
+                "v": 9,
+                "s": 1
+            },
+            "Virgin Islands": {
+                "v": 10,
+                "s": 1
+            },
+            "Cayman Islands": {
+                "v": 11,
+                "s": 1
+            },
+            "United States Virgin Islands": {
+                "v": 12,
+                "s": 1
+            },
+            "New Caledonia": {
+                "v": 13,
+                "s": 1
+            },
+            "Wuhan Evacuee": {
+                "v": 14,
+                "s": 1
+            },
+            "Yukon": {
+                "v": 15,
+                "s": 1
+            },
+            "Falkland Islands (Islas Malvinas)": {
+                "v": 16,
+                "s": 1
+            },
+            "Falkland Islands (Malvinas)": {
+                "v": 17,
+                "s": 1
+            },
+            "Aragon": {
+                "v": 18,
+                "s": 1
+            },
+            "Baleares": {
+                "v": 19,
+                "s": 1
+            },
+            "Bayern": {
+                "v": 20,
+                "s": 1
+            },
+            "Berlin": {
+                "v": 21,
+                "s": 1
+            },
+            "Campania": {
+                "v": 22,
+                "s": 1
+            },
+            "Mecklenburg-Vorpommern": {
+                "v": 23,
+                "s": 1
+            },
+            "Murcia": {
+                "v": 24,
+                "s": 1
+            },
+            "P.A. Bolzano": {
+                "v": 25,
+                "s": 1
+            },
+            "Puglia": {
+                "v": 26,
+                "s": 1
+            },
+            "Rheinland-Pfalz": {
+                "v": 27,
+                "s": 1
+            },
+            "Sachsen": {
+                "v": 28,
+                "s": 1
+            },
+            "Toscana": {
+                "v": 29,
+                "s": 1
+            },
+            "Arica y Parinacota": {
+                "v": 30,
+                "s": 1
+            },
+            "Biobio": {
+                "v": 31,
+                "s": 1
+            },
+            "Coahuila": {
+                "v": 32,
+                "s": 1
+            },
+            "Goias": {
+                "v": 33,
+                "s": 1
+            },
+            "Guerrero": {
+                "v": 34,
+                "s": 1
+            },
+            "Mato Grosso": {
+                "v": 35,
+                "s": 1
+            },
+            "Maule": {
+                "v": 36,
+                "s": 1
+            },
+            "Nuevo Leon": {
+                "v": 37,
+                "s": 1
+            },
+            "OHiggins": {
+                "v": 38,
+                "s": 1
+            },
+            "Quintana Roo": {
+                "v": 39,
+                "s": 1
+            },
+            "Rio de Janeiro": {
+                "v": 40,
+                "s": 1
+            },
+            "Sao Paulo": {
+                "v": 41,
+                "s": 1
+            },
+            "Tamaulipas": {
+                "v": 42,
+                "s": 1
+            },
+            "Valparaiso": {
+                "v": 43,
+                "s": 1
+            },
+            "Zacatecas": {
+                "v": 44,
+                "s": 1
+            },
+            "Ancash": {
+                "v": 45,
+                "s": 1
+            },
+            "Aomori": {
+                "v": 46,
+                "s": 1
+            },
+            "Cauca": {
+                "v": 47,
+                "s": 1
+            },
+            "Fukuoka": {
+                "v": 0,
+                "s": 1
+            },
+            "Ishikawa": {
+                "v": 1,
+                "s": 1
+            },
+            "Kagawa": {
+                "v": 2,
+                "s": 1
+            },
+            "Kanagawa": {
+                "v": 3,
+                "s": 1
+            },
+            "Miyagi": {
+                "v": 4,
+                "s": 1
+            },
+            "Miyazaki": {
+                "v": 5,
+                "s": 1
+            },
+            "Moquegua": {
+                "v": 6,
+                "s": 1
+            },
+            "Nagano": {
+                "v": 7,
+                "s": 1
+            },
+            "Nara": {
+                "v": 8,
+                "s": 1
+            },
+            "Okinawa": {
+                "v": 9,
+                "s": 1
+            },
+            "Sucre": {
+                "v": 10,
+                "s": 1
+            },
+            "Tumbes": {
+                "v": 11,
+                "s": 1
+            },
+            "Astrakhan Oblast": {
+                "v": 12,
+                "s": 1
+            },
+            "Bashkortostan Republic": {
+                "v": 13,
+                "s": 1
+            },
+            "Buryatia Republic": {
+                "v": 14,
+                "s": 1
+            },
+            "Chelyabinsk Oblast": {
+                "v": 15,
+                "s": 1
+            },
+            "Cherkasy Oblast": {
+                "v": 16,
+                "s": 1
+            },
+            "Crimea Republic*": {
+                "v": 17,
+                "s": 1
+            },
+            "Dagestan Republic": {
+                "v": 18,
+                "s": 1
+            },
+            "Dnipropetrovsk Oblast": {
+                "v": 19,
+                "s": 1
+            },
+            "Mainland China": {
+                "v": 20,
+                "s": 1
+            },
+            "South Korea": {
+                "v": 21,
+                "s": 1
+            },
+            "Vietnam": {
+                "v": 22,
+                "s": 1
+            },
+            "Australia": {
+                "v": 23,
+                "s": 1
+            },
+            "Mexico": {
+                "v": 24,
+                "s": 1
+            },
+            "US": {
+                "v": 25,
+                "s": 1
+            },
+            "Nepal": {
+                "v": 26,
+                "s": 1
+            },
+            "Canada": {
+                "v": 27,
+                "s": 1
+            },
+            "United Arab Emirates": {
+                "v": 28,
+                "s": 1
+            },
+            "UK": {
+                "v": 29,
+                "s": 1
+            },
+            "Iran": {
+                "v": 30,
+                "s": 1
+            },
+            "Algeria": {
+                "v": 31,
+                "s": 1
+            },
+            "Austria": {
+                "v": 32,
+                "s": 1
+            },
+            "Israel": {
+                "v": 33,
+                "s": 1
+            },
+            "Norway": {
+                "v": 34,
+                "s": 1
+            },
+            "Belarus": {
+                "v": 35,
+                "s": 1
+            },
+            "Iceland": {
+                "v": 36,
+                "s": 1
+            },
+            "Qatar": {
+                "v": 37,
+                "s": 1
+            },
+            "Ecuador": {
+                "v": 38,
+                "s": 1
+            },
+            "Indonesia": {
+                "v": 39,
+                "s": 1
+            },
+            "Senegal": {
+                "v": 40,
+                "s": 1
+            },
+            "Argentina": {
+                "v": 41,
+                "s": 1
+            },
+            "Hungary": {
+                "v": 42,
+                "s": 1
+            },
+            "Liechtenstein": {
+                "v": 43,
+                "s": 1
+            },
+            "Bosnia and Herzegovina": {
+                "v": 44,
+                "s": 1
+            },
+            "South Africa": {
+                "v": 45,
+                "s": 1
+            },
+            "Cameroon": {
+                "v": 46,
+                "s": 1
+            },
+            "Togo": {
+                "v": 47,
+                "s": 1
+            },
+            "Martinique": {
+                "v": 0,
+                "s": 1
+            },
+            "Albania": {
+                "v": 1,
+                "s": 1
+            },
+            "St. Martin": {
+                "v": 2,
+                "s": 1
+            },
+            "Brunei": {
+                "v": 3,
+                "s": 1
+            },
+            "Burkina Faso": {
+                "v": 4,
+                "s": 1
+            },
+            "Panama": {
+                "v": 5,
+                "s": 1
+            },
+            "Guyana": {
+                "v": 6,
+                "s": 1
+            },
+            "Guadeloupe": {
+                "v": 7,
+                "s": 1
+            },
+            "Guinea": {
+                "v": 8,
+                "s": 1
+            },
+            "Ghana": {
+                "v": 9,
+                "s": 1
+            },
+            "Trinidad and Tobago": {
+                "v": 10,
+                "s": 1
+            },
+            "Gabon": {
+                "v": 11,
+                "s": 1
+            },
+            "Suriname": {
+                "v": 12,
+                "s": 1
+            },
+            "Kosovo": {
+                "v": 13,
+                "s": 1
+            },
+            "Equatorial Guinea": {
+                "v": 14,
+                "s": 1
+            },
+            "Republic of the Congo": {
+                "v": 15,
+                "s": 1
+            },
+            "Zambia": {
+                "v": 16,
+                "s": 1
+            },
+            "Bahamas, The": {
+                "v": 17,
+                "s": 1
+            },
+            "Fiji": {
+                "v": 18,
+                "s": 1
+            },
+            "Nicaragua": {
+                "v": 19,
+                "s": 1
+            },
+            "Madagascar": {
+                "v": 20,
+                "s": 1
+            },
+            "Papua New Guinea": {
+                "v": 21,
+                "s": 1
+            },
+            "Cape Verde": {
+                "v": 22,
+                "s": 1
+            },
+            "Malawi": {
+                "v": 23,
+                "s": 1
+            },
+            "South Sudan": {
+                "v": 24,
+                "s": 1
+            },
+            "Sao Tome and Principe": {
+                "v": 25,
+                "s": 1
+            },
+            "Italy": {
+                "v": 26,
+                "s": 1
+            },
+            "Germany": {
+                "v": 27,
+                "s": 1
+            },
+            "Spain": {
+                "v": 28,
+                "s": 1
+            },
+            "Brazil": {
+                "v": 29,
+                "s": 1
+            },
+            "Chile": {
+                "v": 30,
+                "s": 1
+            },
+            "Peru": {
+                "v": 31,
+                "s": 1
+            },
+            "Colombia": {
+                "v": 32,
+                "s": 1
+            },
+            "Japan": {
+                "v": 33,
+                "s": 1
+            },
+            "Russia": {
+                "v": 34,
+                "s": 1
+            },
+            "Ukraine": {
+                "v": 35,
+                "s": 1
+            },
+            "Sweden": {
+                "v": 36,
+                "s": 1
+            },
+            "India": {
+                "v": 37,
+                "s": 1
+            },
+            "Belgium": {
+                "v": 38,
+                "s": 1
+            },
+            "Thailand": {
+                "v": 39,
+                "s": 1
+            },
+            "Philippines": {
+                "v": 40,
+                "s": 1
+            },
+            "Cambodia": {
+                "v": 41,
+                "s": 1
+            },
+            "Finland": {
+                "v": 42,
+                "s": 1
+            },
+            "Others": {
+                "v": 43,
+                "s": 1
+            },
+            "Egypt": {
+                "v": 44,
+                "s": 1
+            },
+            "Lebanon": {
+                "v": 45,
+                "s": 1
+            },
+            "Afghanistan": {
+                "v": 46,
+                "s": 1
+            },
+            "Iraq": {
+                "v": 47,
+                "s": 1
+            },
+            "Croatia": {
+                "v": 0,
+                "s": 1
+            },
+            "Romania": {
+                "v": 1,
+                "s": 1
+            },
+            "North Ireland": {
+                "v": 2,
+                "s": 1
+            },
+            "Luxembourg": {
+                "v": 3,
+                "s": 1
+            },
+            "Armenia": {
+                "v": 4,
+                "s": 1
+            },
+            "Saudi Arabia": {
+                "v": 5,
+                "s": 1
+            },
+            "Palestine": {
+                "v": 6,
+                "s": 1
+            },
+            "Costa Rica": {
+                "v": 7,
+                "s": 1
+            },
+            "Cyprus": {
+                "v": 8,
+                "s": 1
+            },
+            "Congo (Kinshasa)": {
+                "v": 9,
+                "s": 1
+            },
+            "Turkey": {
+                "v": 10,
+                "s": 1
+            },
+            "Kazakhstan": {
+                "v": 11,
+                "s": 1
+            },
+            "Jersey": {
+                "v": 12,
+                "s": 1
+            },
+            "Seychelles": {
+                "v": 13,
+                "s": 1
+            },
+            "Guernsey": {
+                "v": 14,
+                "s": 1
+            },
+            "Saint Lucia": {
+                "v": 15,
+                "s": 1
+            },
+            "Saint Vincent and the Grenadines": {
+                "v": 16,
+                "s": 1
+            },
+            "Congo (Brazzaville)": {
+                "v": 17,
+                "s": 1
+            },
+            "Somalia": {
+                "v": 18,
+                "s": 1
+            },
+            "Tanzania": {
+                "v": 19,
+                "s": 1
+            },
+            "The Bahamas": {
+                "v": 20,
+                "s": 1
+            },
+            "The Gambia": {
+                "v": 21,
+                "s": 1
+            },
+            "Gambia, The": {
+                "v": 22,
+                "s": 1
+            },
+            "Chad": {
+                "v": 23,
+                "s": 1
+            },
+            "El Salvador": {
+                "v": 24,
+                "s": 1
+            },
+            "Haiti": {
+                "v": 25,
+                "s": 1
+            },
+            "Angola": {
+                "v": 26,
+                "s": 1
+            },
+            "Cabo Verde": {
+                "v": 27,
+                "s": 1
+            },
+            "Eritrea": {
+                "v": 28,
+                "s": 1
+            },
+            "Belize": {
+                "v": 29,
+                "s": 1
+            },
+            "Laos": {
+                "v": 30,
+                "s": 1
+            },
+            "Diamond Princess": {
+                "v": 31,
+                "s": 1
+            },
+            "Guinea-Bissau": {
+                "v": 32,
+                "s": 1
+            },
+            "Mali": {
+                "v": 33,
+                "s": 1
+            },
+            "Burma": {
+                "v": 34,
+                "s": 1
+            },
+            "Botswana": {
+                "v": 35,
+                "s": 1
+            },
+            "Lesotho": {
+                "v": 36,
+                "s": 1
+            },
+            "Pakistan": {
+                "v": 37,
+                "s": 1
+            },
+            "Deathssum": {
+                "v": 38,
+                "s": 1
+            },
+            "ObservationDatecountdistinct": {
+                "v": 39,
+                "s": 1
+            },
+            "Andorra": {
+                "v": 40,
+                "s": 1
+            },
+            "Antigua and Barbuda": {
+                "v": 41,
+                "s": 1
+            },
+            "Azerbaijan": {
+                "v": 42,
+                "s": 1
+            },
+            "Bahamas": {
+                "v": 43,
+                "s": 1
+            },
+            "Bahrain": {
+                "v": 44,
+                "s": 1
+            },
+            "Bangladesh": {
+                "v": 45,
+                "s": 1
+            },
+            "Barbados": {
+                "v": 46,
+                "s": 1
+            },
+            "Benin": {
+                "v": 47,
+                "s": 1
+            },
+            "Bhutan": {
+                "v": 0,
+                "s": 1
+            },
+            "Bolivia": {
+                "v": 1,
+                "s": 1
+            },
+            "Bulgaria": {
+                "v": 2,
+                "s": 1
+            },
+            "Burundi": {
+                "v": 3,
+                "s": 1
+            },
+            "Central African Republic": {
+                "v": 4,
+                "s": 1
+            },
+            "Comoros": {
+                "v": 5,
+                "s": 1
+            },
+            "Cuba": {
+                "v": 6,
+                "s": 1
+            },
+            "Czech Republic": {
+                "v": 7,
+                "s": 1
+            },
+            "Djibouti": {
+                "v": 8,
+                "s": 1
+            },
+            "Dominica": {
+                "v": 9,
+                "s": 1
+            },
+            "Dominican Republic": {
+                "v": 10,
+                "s": 1
+            },
+            "Estonia": {
+                "v": 11,
+                "s": 1
+            },
+            "Eswatini": {
+                "v": 12,
+                "s": 1
+            },
+            "Ethiopia": {
+                "v": 13,
+                "s": 1
+            },
+            "Gambia": {
+                "v": 14,
+                "s": 1
+            },
+            "Greece": {
+                "v": 15,
+                "s": 1
+            },
+            "Grenada": {
+                "v": 16,
+                "s": 1
+            },
+            "Guatemala": {
+                "v": 17,
+                "s": 1
+            },
+            "Holy See": {
+                "v": 18,
+                "s": 1
+            },
+            "Honduras": {
+                "v": 19,
+                "s": 1
+            },
+            "Ireland": {
+                "v": 20,
+                "s": 1
+            },
+            "Ivory Coast": {
+                "v": 21,
+                "s": 1
+            },
+            "Jamaica": {
+                "v": 22,
+                "s": 1
+            },
+            "Jordan": {
+                "v": 23,
+                "s": 1
+            },
+            "Kenya": {
+                "v": 24,
+                "s": 1
+            },
+            "Kiribati": {
+                "v": 25,
+                "s": 1
+            },
+            "Kuwait": {
+                "v": 26,
+                "s": 1
+            },
+            "Kyrgyzstan": {
+                "v": 27,
+                "s": 1
+            },
+            "Latvia": {
+                "v": 28,
+                "s": 1
+            },
+            "Liberia": {
+                "v": 29,
+                "s": 1
+            },
+            "Libya": {
+                "v": 30,
+                "s": 1
+            },
+            "Lithuania": {
+                "v": 31,
+                "s": 1
+            },
+            "MS Zaandam": {
+                "v": 32,
+                "s": 1
+            },
+            "Malaysia": {
+                "v": 33,
+                "s": 1
+            },
+            "Maldives": {
+                "v": 34,
+                "s": 1
+            },
+            "Malta": {
+                "v": 35,
+                "s": 1
+            },
+            "Marshall Islands": {
+                "v": 36,
+                "s": 1
+            },
+            "Mauritania": {
+                "v": 37,
+                "s": 1
+            },
+            "Mauritius": {
+                "v": 38,
+                "s": 1
+            },
+            "Moldova": {
+                "v": 39,
+                "s": 1
+            },
+            "Monaco": {
+                "v": 40,
+                "s": 1
+            },
+            "Mongolia": {
+                "v": 41,
+                "s": 1
+            },
+            "Montenegro": {
+                "v": 42,
+                "s": 1
+            },
+            "Morocco": {
+                "v": 43,
+                "s": 1
+            },
+            "Mozambique": {
+                "v": 44,
+                "s": 1
+            },
+            "Namibia": {
+                "v": 45,
+                "s": 1
+            },
+            "New Zealand": {
+                "v": 46,
+                "s": 1
+            },
+            "Niger": {
+                "v": 47,
+                "s": 1
+            },
+            "Nigeria": {
+                "v": 0,
+                "s": 1
+            },
+            "North Macedonia": {
+                "v": 1,
+                "s": 1
+            },
+            "Oman": {
+                "v": 2,
+                "s": 1
+            },
+            "Paraguay": {
+                "v": 3,
+                "s": 1
+            },
+            "Poland": {
+                "v": 4,
+                "s": 1
+            },
+            "Portugal": {
+                "v": 5,
+                "s": 1
+            },
+            "Rwanda": {
+                "v": 6,
+                "s": 1
+            },
+            "Saint Kitts and Nevis": {
+                "v": 7,
+                "s": 1
+            },
+            "Samoa": {
+                "v": 8,
+                "s": 1
+            },
+            "San Marino": {
+                "v": 9,
+                "s": 1
+            },
+            "Serbia": {
+                "v": 10,
+                "s": 1
+            },
+            "Sierra Leone": {
+                "v": 11,
+                "s": 1
+            },
+            "Singapore": {
+                "v": 12,
+                "s": 1
+            },
+            "Slovakia": {
+                "v": 13,
+                "s": 1
+            },
+            "Slovenia": {
+                "v": 14,
+                "s": 1
+            },
+            "Solomon Islands": {
+                "v": 15,
+                "s": 1
+            },
+            "Sri Lanka": {
+                "v": 16,
+                "s": 1
+            },
+            "Sudan": {
+                "v": 17,
+                "s": 1
+            },
+            "Switzerland": {
+                "v": 18,
+                "s": 1
+            },
+            "Syria": {
+                "v": 19,
+                "s": 1
+            },
+            "Tajikistan": {
+                "v": 20,
+                "s": 1
+            },
+            "Timor-Leste": {
+                "v": 21,
+                "s": 1
+            },
+            "Tunisia": {
+                "v": 22,
+                "s": 1
+            },
+            "Uganda": {
+                "v": 23,
+                "s": 1
+            },
+            "Uruguay": {
+                "v": 24,
+                "s": 1
+            },
+            "Uzbekistan": {
+                "v": 25,
+                "s": 1
+            },
+            "Vanuatu": {
+                "v": 26,
+                "s": 1
+            },
+            "Venezuela": {
+                "v": 27,
+                "s": 1
+            },
+            "West Bank and Gaza": {
+                "v": 28,
+                "s": 1
+            },
+            "Yemen": {
+                "v": 29,
+                "s": 1
+            },
+            "Zimbabwe": {
+                "v": 30,
+                "s": 1
+            },
+            "01/01/2021": {
+                "v": 31,
+                "s": 1
+            },
+            "01/02/2021": {
+                "v": 32,
+                "s": 1
+            },
+            "01/03/2021": {
+                "v": 33,
+                "s": 1
+            },
+            "01/04/2021": {
+                "v": 34,
+                "s": 1
+            },
+            "01/05/2021": {
+                "v": 35,
+                "s": 1
+            },
+            "01/06/2021": {
+                "v": 36,
+                "s": 1
+            },
+            "01/07/2021": {
+                "v": 37,
+                "s": 1
+            },
+            "01/08/2021": {
+                "v": 38,
+                "s": 1
+            },
+            "01/09/2021": {
+                "v": 39,
+                "s": 1
+            },
+            "01/10/2021": {
+                "v": 40,
+                "s": 1
+            },
+            "01/11/2021": {
+                "v": 41,
+                "s": 1
+            },
+            "01/12/2021": {
+                "v": 42,
+                "s": 1
+            },
+            "01/13/2021": {
+                "v": 43,
+                "s": 1
+            },
+            "01/14/2021": {
+                "v": 44,
+                "s": 1
+            },
+            "01/15/2021": {
+                "v": 45,
+                "s": 1
+            },
+            "01/16/2021": {
+                "v": 46,
+                "s": 1
+            },
+            "01/17/2021": {
+                "v": 47,
+                "s": 1
+            },
+            "01/18/2021": {
+                "v": 0,
+                "s": 1
+            },
+            "01/19/2021": {
+                "v": 1,
+                "s": 1
+            },
+            "01/20/2021": {
+                "v": 2,
+                "s": 1
+            },
+            "01/21/2021": {
+                "v": 3,
+                "s": 1
+            },
+            "01/22/2021": {
+                "v": 4,
+                "s": 1
+            },
+            "01/23/2021": {
+                "v": 5,
+                "s": 1
+            },
+            "01/24/2021": {
+                "v": 6,
+                "s": 1
+            },
+            "01/25/2021": {
+                "v": 7,
+                "s": 1
+            },
+            "01/26/2021": {
+                "v": 8,
+                "s": 1
+            },
+            "01/27/2021": {
+                "v": 9,
+                "s": 1
+            },
+            "01/28/2021": {
+                "v": 10,
+                "s": 1
+            },
+            "01/29/2021": {
+                "v": 11,
+                "s": 1
+            },
+            "01/30/2021": {
+                "v": 12,
+                "s": 1
+            },
+            "01/31/2021": {
+                "v": 13,
+                "s": 1
+            },
+            "02/01/2021": {
+                "v": 14,
+                "s": 1
+            },
+            "02/02/2021": {
+                "v": 15,
+                "s": 1
+            },
+            "02/03/2021": {
+                "v": 16,
+                "s": 1
+            },
+            "02/04/2021": {
+                "v": 17,
+                "s": 1
+            },
+            "02/05/2021": {
+                "v": 18,
+                "s": 1
+            },
+            "02/06/2021": {
+                "v": 19,
+                "s": 1
+            },
+            "02/07/2021": {
+                "v": 20,
+                "s": 1
+            },
+            "02/08/2021": {
+                "v": 21,
+                "s": 1
+            },
+            "02/09/2021": {
+                "v": 22,
+                "s": 1
+            },
+            "02/10/2021": {
+                "v": 23,
+                "s": 1
+            },
+            "02/11/2021": {
+                "v": 24,
+                "s": 1
+            },
+            "02/12/2021": {
+                "v": 25,
+                "s": 1
+            },
+            "02/13/2021": {
+                "v": 26,
+                "s": 1
+            },
+            "02/14/2021": {
+                "v": 27,
+                "s": 1
+            },
+            "02/15/2021": {
+                "v": 28,
+                "s": 1
+            },
+            "02/16/2021": {
+                "v": 29,
+                "s": 1
+            },
+            "02/17/2021": {
+                "v": 30,
+                "s": 1
+            },
+            "02/18/2021": {
+                "v": 31,
+                "s": 1
+            },
+            "02/19/2021": {
+                "v": 32,
+                "s": 1
+            },
+            "02/20/2021": {
+                "v": 33,
+                "s": 1
+            },
+            "02/21/2021": {
+                "v": 34,
+                "s": 1
+            },
+            "02/22/2021": {
+                "v": 35,
+                "s": 1
+            },
+            "02/23/2021": {
+                "v": 36,
+                "s": 1
+            },
+            "02/24/2020": {
+                "v": 37,
+                "s": 1
+            },
+            "02/24/2021": {
+                "v": 38,
+                "s": 1
+            },
+            "02/25/2020": {
+                "v": 39,
+                "s": 1
+            },
+            "02/25/2021": {
+                "v": 40,
+                "s": 1
+            },
+            "02/26/2020": {
+                "v": 41,
+                "s": 1
+            },
+            "02/26/2021": {
+                "v": 42,
+                "s": 1
+            },
+            "02/27/2020": {
+                "v": 43,
+                "s": 1
+            },
+            "02/27/2021": {
+                "v": 44,
+                "s": 1
+            },
+            "02/28/2020": {
+                "v": 45,
+                "s": 1
+            },
+            "02/28/2021": {
+                "v": 46,
+                "s": 1
+            },
+            "02/29/2020": {
+                "v": 47,
+                "s": 1
+            },
+            "03/01/2020": {
+                "v": 0,
+                "s": 1
+            },
+            "03/01/2021": {
+                "v": 1,
+                "s": 1
+            },
+            "03/02/2020": {
+                "v": 2,
+                "s": 1
+            },
+            "03/02/2021": {
+                "v": 3,
+                "s": 1
+            },
+            "03/03/2020": {
+                "v": 4,
+                "s": 1
+            },
+            "03/03/2021": {
+                "v": 5,
+                "s": 1
+            },
+            "03/04/2020": {
+                "v": 6,
+                "s": 1
+            },
+            "03/04/2021": {
+                "v": 7,
+                "s": 1
+            },
+            "03/05/2020": {
+                "v": 8,
+                "s": 1
+            },
+            "03/05/2021": {
+                "v": 9,
+                "s": 1
+            },
+            "03/06/2020": {
+                "v": 10,
+                "s": 1
+            },
+            "03/06/2021": {
+                "v": 11,
+                "s": 1
+            },
+            "03/07/2020": {
+                "v": 12,
+                "s": 1
+            },
+            "03/07/2021": {
+                "v": 13,
+                "s": 1
+            },
+            "03/08/2020": {
+                "v": 14,
+                "s": 1
+            },
+            "03/08/2021": {
+                "v": 15,
+                "s": 1
+            },
+            "03/09/2020": {
+                "v": 16,
+                "s": 1
+            },
+            "03/09/2021": {
+                "v": 17,
+                "s": 1
+            },
+            "03/10/2020": {
+                "v": 18,
+                "s": 1
+            },
+            "03/10/2021": {
+                "v": 19,
+                "s": 1
+            },
+            "03/11/2020": {
+                "v": 20,
+                "s": 1
+            },
+            "03/11/2021": {
+                "v": 21,
+                "s": 1
+            },
+            "03/12/2020": {
+                "v": 22,
+                "s": 1
+            },
+            "03/12/2021": {
+                "v": 23,
+                "s": 1
+            },
+            "03/13/2020": {
+                "v": 24,
+                "s": 1
+            },
+            "03/13/2021": {
+                "v": 25,
+                "s": 1
+            },
+            "03/14/2020": {
+                "v": 26,
+                "s": 1
+            },
+            "03/14/2021": {
+                "v": 27,
+                "s": 1
+            },
+            "03/15/2020": {
+                "v": 28,
+                "s": 1
+            },
+            "03/15/2021": {
+                "v": 29,
+                "s": 1
+            },
+            "03/16/2020": {
+                "v": 30,
+                "s": 1
+            },
+            "03/16/2021": {
+                "v": 31,
+                "s": 1
+            },
+            "03/17/2020": {
+                "v": 32,
+                "s": 1
+            },
+            "03/17/2021": {
+                "v": 33,
+                "s": 1
+            },
+            "03/18/2020": {
+                "v": 34,
+                "s": 1
+            },
+            "03/18/2021": {
+                "v": 35,
+                "s": 1
+            },
+            "03/19/2020": {
+                "v": 36,
+                "s": 1
+            },
+            "03/19/2021": {
+                "v": 37,
+                "s": 1
+            },
+            "03/20/2020": {
+                "v": 38,
+                "s": 1
+            },
+            "03/20/2021": {
+                "v": 39,
+                "s": 1
+            },
+            "03/21/2020": {
+                "v": 40,
+                "s": 1
+            },
+            "03/21/2021": {
+                "v": 41,
+                "s": 1
+            },
+            "03/22/2020": {
+                "v": 42,
+                "s": 1
+            },
+            "03/22/2021": {
+                "v": 43,
+                "s": 1
+            },
+            "03/23/2020": {
+                "v": 44,
+                "s": 1
+            },
+            "03/23/2021": {
+                "v": 45,
+                "s": 1
+            },
+            "03/24/2020": {
+                "v": 46,
+                "s": 1
+            },
+            "03/24/2021": {
+                "v": 47,
+                "s": 1
+            },
+            "03/25/2020": {
+                "v": 0,
+                "s": 1
+            },
+            "03/25/2021": {
+                "v": 1,
+                "s": 1
+            },
+            "03/26/2020": {
+                "v": 2,
+                "s": 1
+            },
+            "03/26/2021": {
+                "v": 3,
+                "s": 1
+            },
+            "03/27/2020": {
+                "v": 4,
+                "s": 1
+            },
+            "03/27/2021": {
+                "v": 5,
+                "s": 1
+            },
+            "03/28/2020": {
+                "v": 6,
+                "s": 1
+            },
+            "03/28/2021": {
+                "v": 7,
+                "s": 1
+            },
+            "03/29/2020": {
+                "v": 8,
+                "s": 1
+            },
+            "03/29/2021": {
+                "v": 9,
+                "s": 1
+            },
+            "03/30/2020": {
+                "v": 10,
+                "s": 1
+            },
+            "03/30/2021": {
+                "v": 11,
+                "s": 1
+            },
+            "03/31/2020": {
+                "v": 12,
+                "s": 1
+            },
+            "03/31/2021": {
+                "v": 13,
+                "s": 1
+            },
+            "04/01/2020": {
+                "v": 14,
+                "s": 1
+            },
+            "04/01/2021": {
+                "v": 15,
+                "s": 1
+            },
+            "04/02/2020": {
+                "v": 16,
+                "s": 1
+            },
+            "04/02/2021": {
+                "v": 17,
+                "s": 1
+            },
+            "04/03/2020": {
+                "v": 18,
+                "s": 1
+            },
+            "04/03/2021": {
+                "v": 19,
+                "s": 1
+            },
+            "04/04/2020": {
+                "v": 20,
+                "s": 1
+            },
+            "04/04/2021": {
+                "v": 21,
+                "s": 1
+            },
+            "04/05/2020": {
+                "v": 22,
+                "s": 1
+            },
+            "04/05/2021": {
+                "v": 23,
+                "s": 1
+            },
+            "04/06/2020": {
+                "v": 24,
+                "s": 1
+            },
+            "04/06/2021": {
+                "v": 25,
+                "s": 1
+            },
+            "04/07/2020": {
+                "v": 26,
+                "s": 1
+            },
+            "04/07/2021": {
+                "v": 27,
+                "s": 1
+            },
+            "04/08/2020": {
+                "v": 28,
+                "s": 1
+            },
+            "04/08/2021": {
+                "v": 29,
+                "s": 1
+            },
+            "04/09/2020": {
+                "v": 30,
+                "s": 1
+            },
+            "04/09/2021": {
+                "v": 31,
+                "s": 1
+            },
+            "04/10/2020": {
+                "v": 32,
+                "s": 1
+            },
+            "04/10/2021": {
+                "v": 33,
+                "s": 1
+            },
+            "04/11/2020": {
+                "v": 34,
+                "s": 1
+            },
+            "04/11/2021": {
+                "v": 35,
+                "s": 1
+            },
+            "04/12/2020": {
+                "v": 36,
+                "s": 1
+            },
+            "04/12/2021": {
+                "v": 37,
+                "s": 1
+            },
+            "04/13/2020": {
+                "v": 38,
+                "s": 1
+            },
+            "04/13/2021": {
+                "v": 39,
+                "s": 1
+            },
+            "04/14/2020": {
+                "v": 40,
+                "s": 1
+            },
+            "04/14/2021": {
+                "v": 41,
+                "s": 1
+            },
+            "04/15/2020": {
+                "v": 42,
+                "s": 1
+            },
+            "04/15/2021": {
+                "v": 43,
+                "s": 1
+            },
+            "04/16/2020": {
+                "v": 44,
+                "s": 1
+            },
+            "04/16/2021": {
+                "v": 45,
+                "s": 1
+            },
+            "04/17/2020": {
+                "v": 46,
+                "s": 1
+            },
+            "04/17/2021": {
+                "v": 47,
+                "s": 1
+            },
+            "04/18/2020": {
+                "v": 0,
+                "s": 1
+            },
+            "04/18/2021": {
+                "v": 1,
+                "s": 1
+            },
+            "04/19/2020": {
+                "v": 2,
+                "s": 1
+            },
+            "04/19/2021": {
+                "v": 3,
+                "s": 1
+            },
+            "04/20/2020": {
+                "v": 4,
+                "s": 1
+            },
+            "04/20/2021": {
+                "v": 5,
+                "s": 1
+            },
+            "04/21/2020": {
+                "v": 6,
+                "s": 1
+            },
+            "04/21/2021": {
+                "v": 7,
+                "s": 1
+            },
+            "04/22/2020": {
+                "v": 8,
+                "s": 1
+            },
+            "04/22/2021": {
+                "v": 9,
+                "s": 1
+            },
+            "04/23/2020": {
+                "v": 10,
+                "s": 1
+            },
+            "04/23/2021": {
+                "v": 11,
+                "s": 1
+            },
+            "04/24/2020": {
+                "v": 12,
+                "s": 1
+            },
+            "04/24/2021": {
+                "v": 13,
+                "s": 1
+            },
+            "04/25/2020": {
+                "v": 14,
+                "s": 1
+            },
+            "04/25/2021": {
+                "v": 15,
+                "s": 1
+            },
+            "04/26/2020": {
+                "v": 16,
+                "s": 1
+            },
+            "04/26/2021": {
+                "v": 17,
+                "s": 1
+            },
+            "04/27/2020": {
+                "v": 18,
+                "s": 1
+            },
+            "04/27/2021": {
+                "v": 19,
+                "s": 1
+            },
+            "04/28/2020": {
+                "v": 20,
+                "s": 1
+            },
+            "04/28/2021": {
+                "v": 21,
+                "s": 1
+            },
+            "04/29/2020": {
+                "v": 22,
+                "s": 1
+            },
+            "04/29/2021": {
+                "v": 23,
+                "s": 1
+            },
+            "04/30/2020": {
+                "v": 24,
+                "s": 1
+            },
+            "04/30/2021": {
+                "v": 25,
+                "s": 1
+            },
+            "05/01/2020": {
+                "v": 26,
+                "s": 1
+            },
+            "05/01/2021": {
+                "v": 27,
+                "s": 1
+            },
+            "05/02/2020": {
+                "v": 28,
+                "s": 1
+            },
+            "05/02/2021": {
+                "v": 29,
+                "s": 1
+            },
+            "05/03/2020": {
+                "v": 30,
+                "s": 1
+            },
+            "05/03/2021": {
+                "v": 31,
+                "s": 1
+            },
+            "05/04/2020": {
+                "v": 32,
+                "s": 1
+            },
+            "05/04/2021": {
+                "v": 33,
+                "s": 1
+            },
+            "05/05/2020": {
+                "v": 34,
+                "s": 1
+            },
+            "05/05/2021": {
+                "v": 35,
+                "s": 1
+            },
+            "05/06/2020": {
+                "v": 36,
+                "s": 1
+            },
+            "05/06/2021": {
+                "v": 37,
+                "s": 1
+            },
+            "05/07/2020": {
+                "v": 38,
+                "s": 1
+            },
+            "05/07/2021": {
+                "v": 39,
+                "s": 1
+            },
+            "05/08/2020": {
+                "v": 40,
+                "s": 1
+            },
+            "05/08/2021": {
+                "v": 41,
+                "s": 1
+            },
+            "05/09/2020": {
+                "v": 42,
+                "s": 1
+            },
+            "05/09/2021": {
+                "v": 43,
+                "s": 1
+            },
+            "05/10/2020": {
+                "v": 44,
+                "s": 1
+            },
+            "05/10/2021": {
+                "v": 45,
+                "s": 1
+            },
+            "05/11/2020": {
+                "v": 46,
+                "s": 1
+            },
+            "05/11/2021": {
+                "v": 47,
+                "s": 1
+            },
+            "05/12/2020": {
+                "v": 0,
+                "s": 1
+            },
+            "05/12/2021": {
+                "v": 1,
+                "s": 1
+            },
+            "05/13/2020": {
+                "v": 2,
+                "s": 1
+            },
+            "05/13/2021": {
+                "v": 3,
+                "s": 1
+            },
+            "05/14/2020": {
+                "v": 4,
+                "s": 1
+            },
+            "05/14/2021": {
+                "v": 5,
+                "s": 1
+            },
+            "05/15/2020": {
+                "v": 6,
+                "s": 1
+            },
+            "05/15/2021": {
+                "v": 7,
+                "s": 1
+            },
+            "05/16/2020": {
+                "v": 8,
+                "s": 1
+            },
+            "05/16/2021": {
+                "v": 9,
+                "s": 1
+            },
+            "05/17/2020": {
+                "v": 10,
+                "s": 1
+            },
+            "05/17/2021": {
+                "v": 11,
+                "s": 1
+            },
+            "05/18/2020": {
+                "v": 12,
+                "s": 1
+            },
+            "05/18/2021": {
+                "v": 13,
+                "s": 1
+            },
+            "05/19/2020": {
+                "v": 14,
+                "s": 1
+            },
+            "05/19/2021": {
+                "v": 15,
+                "s": 1
+            },
+            "05/20/2020": {
+                "v": 16,
+                "s": 1
+            },
+            "05/20/2021": {
+                "v": 17,
+                "s": 1
+            },
+            "05/21/2020": {
+                "v": 18,
+                "s": 1
+            },
+            "05/21/2021": {
+                "v": 19,
+                "s": 1
+            },
+            "05/22/2020": {
+                "v": 20,
+                "s": 1
+            },
+            "05/22/2021": {
+                "v": 21,
+                "s": 1
+            },
+            "05/23/2020": {
+                "v": 22,
+                "s": 1
+            },
+            "05/23/2021": {
+                "v": 23,
+                "s": 1
+            },
+            "05/24/2020": {
+                "v": 24,
+                "s": 1
+            },
+            "05/24/2021": {
+                "v": 25,
+                "s": 1
+            },
+            "05/25/2020": {
+                "v": 26,
+                "s": 1
+            },
+            "05/25/2021": {
+                "v": 27,
+                "s": 1
+            },
+            "05/26/2020": {
+                "v": 28,
+                "s": 1
+            },
+            "05/26/2021": {
+                "v": 29,
+                "s": 1
+            },
+            "05/27/2020": {
+                "v": 30,
+                "s": 1
+            },
+            "05/27/2021": {
+                "v": 31,
+                "s": 1
+            },
+            "05/28/2020": {
+                "v": 32,
+                "s": 1
+            },
+            "05/28/2021": {
+                "v": 33,
+                "s": 1
+            },
+            "05/29/2020": {
+                "v": 34,
+                "s": 1
+            },
+            "05/29/2021": {
+                "v": 35,
+                "s": 1
+            },
+            "05/30/2020": {
+                "v": 36,
+                "s": 1
+            },
+            "05/31/2020": {
+                "v": 37,
+                "s": 1
+            },
+            "06/01/2020": {
+                "v": 38,
+                "s": 1
+            },
+            "06/02/2020": {
+                "v": 39,
+                "s": 1
+            },
+            "06/03/2020": {
+                "v": 40,
+                "s": 1
+            },
+            "06/04/2020": {
+                "v": 41,
+                "s": 1
+            },
+            "06/05/2020": {
+                "v": 42,
+                "s": 1
+            },
+            "06/06/2020": {
+                "v": 43,
+                "s": 1
+            },
+            "06/07/2020": {
+                "v": 44,
+                "s": 1
+            },
+            "06/08/2020": {
+                "v": 45,
+                "s": 1
+            },
+            "06/09/2020": {
+                "v": 46,
+                "s": 1
+            },
+            "06/10/2020": {
+                "v": 47,
+                "s": 1
+            },
+            "06/11/2020": {
+                "v": 0,
+                "s": 1
+            },
+            "06/12/2020": {
+                "v": 1,
+                "s": 1
+            },
+            "06/13/2020": {
+                "v": 2,
+                "s": 1
+            },
+            "06/14/2020": {
+                "v": 3,
+                "s": 1
+            },
+            "06/15/2020": {
+                "v": 4,
+                "s": 1
+            },
+            "06/16/2020": {
+                "v": 5,
+                "s": 1
+            },
+            "06/17/2020": {
+                "v": 6,
+                "s": 1
+            },
+            "06/18/2020": {
+                "v": 7,
+                "s": 1
+            },
+            "06/19/2020": {
+                "v": 8,
+                "s": 1
+            },
+            "06/20/2020": {
+                "v": 9,
+                "s": 1
+            },
+            "06/21/2020": {
+                "v": 10,
+                "s": 1
+            },
+            "06/22/2020": {
+                "v": 11,
+                "s": 1
+            },
+            "06/23/2020": {
+                "v": 12,
+                "s": 1
+            },
+            "06/24/2020": {
+                "v": 13,
+                "s": 1
+            },
+            "06/25/2020": {
+                "v": 14,
+                "s": 1
+            },
+            "06/26/2020": {
+                "v": 15,
+                "s": 1
+            },
+            "06/27/2020": {
+                "v": 16,
+                "s": 1
+            },
+            "06/28/2020": {
+                "v": 17,
+                "s": 1
+            },
+            "06/29/2020": {
+                "v": 18,
+                "s": 1
+            },
+            "06/30/2020": {
+                "v": 19,
+                "s": 1
+            },
+            "07/01/2020": {
+                "v": 20,
+                "s": 1
+            },
+            "07/02/2020": {
+                "v": 21,
+                "s": 1
+            },
+            "07/03/2020": {
+                "v": 22,
+                "s": 1
+            },
+            "07/04/2020": {
+                "v": 23,
+                "s": 1
+            },
+            "07/05/2020": {
+                "v": 24,
+                "s": 1
+            },
+            "07/06/2020": {
+                "v": 25,
+                "s": 1
+            },
+            "07/07/2020": {
+                "v": 26,
+                "s": 1
+            },
+            "07/08/2020": {
+                "v": 27,
+                "s": 1
+            },
+            "07/09/2020": {
+                "v": 28,
+                "s": 1
+            },
+            "07/10/2020": {
+                "v": 29,
+                "s": 1
+            },
+            "07/11/2020": {
+                "v": 30,
+                "s": 1
+            },
+            "07/12/2020": {
+                "v": 31,
+                "s": 1
+            },
+            "07/13/2020": {
+                "v": 32,
+                "s": 1
+            },
+            "07/14/2020": {
+                "v": 33,
+                "s": 1
+            },
+            "07/15/2020": {
+                "v": 34,
+                "s": 1
+            },
+            "07/16/2020": {
+                "v": 35,
+                "s": 1
+            },
+            "07/17/2020": {
+                "v": 36,
+                "s": 1
+            },
+            "07/18/2020": {
+                "v": 37,
+                "s": 1
+            },
+            "07/19/2020": {
+                "v": 38,
+                "s": 1
+            },
+            "07/20/2020": {
+                "v": 39,
+                "s": 1
+            },
+            "07/21/2020": {
+                "v": 40,
+                "s": 1
+            },
+            "07/22/2020": {
+                "v": 41,
+                "s": 1
+            },
+            "07/23/2020": {
+                "v": 42,
+                "s": 1
+            },
+            "07/24/2020": {
+                "v": 43,
+                "s": 1
+            },
+            "07/25/2020": {
+                "v": 44,
+                "s": 1
+            },
+            "07/26/2020": {
+                "v": 45,
+                "s": 1
+            },
+            "07/27/2020": {
+                "v": 46,
+                "s": 1
+            },
+            "07/28/2020": {
+                "v": 47,
+                "s": 1
+            },
+            "07/29/2020": {
+                "v": 0,
+                "s": 1
+            },
+            "07/30/2020": {
+                "v": 1,
+                "s": 1
+            },
+            "07/31/2020": {
+                "v": 2,
+                "s": 1
+            },
+            "08/01/2020": {
+                "v": 3,
+                "s": 1
+            },
+            "08/02/2020": {
+                "v": 4,
+                "s": 1
+            },
+            "08/03/2020": {
+                "v": 5,
+                "s": 1
+            },
+            "08/04/2020": {
+                "v": 6,
+                "s": 1
+            },
+            "08/05/2020": {
+                "v": 7,
+                "s": 1
+            },
+            "08/06/2020": {
+                "v": 8,
+                "s": 1
+            },
+            "08/07/2020": {
+                "v": 9,
+                "s": 1
+            },
+            "08/08/2020": {
+                "v": 10,
+                "s": 1
+            },
+            "08/09/2020": {
+                "v": 11,
+                "s": 1
+            },
+            "08/10/2020": {
+                "v": 12,
+                "s": 1
+            },
+            "08/11/2020": {
+                "v": 13,
+                "s": 1
+            },
+            "08/12/2020": {
+                "v": 14,
+                "s": 1
+            },
+            "08/13/2020": {
+                "v": 15,
+                "s": 1
+            },
+            "08/14/2020": {
+                "v": 16,
+                "s": 1
+            },
+            "08/15/2020": {
+                "v": 17,
+                "s": 1
+            },
+            "08/16/2020": {
+                "v": 18,
+                "s": 1
+            },
+            "08/17/2020": {
+                "v": 19,
+                "s": 1
+            },
+            "08/18/2020": {
+                "v": 20,
+                "s": 1
+            },
+            "08/19/2020": {
+                "v": 21,
+                "s": 1
+            },
+            "08/20/2020": {
+                "v": 22,
+                "s": 1
+            },
+            "08/21/2020": {
+                "v": 23,
+                "s": 1
+            },
+            "08/22/2020": {
+                "v": 24,
+                "s": 1
+            },
+            "08/23/2020": {
+                "v": 25,
+                "s": 1
+            },
+            "08/24/2020": {
+                "v": 26,
+                "s": 1
+            },
+            "08/25/2020": {
+                "v": 27,
+                "s": 1
+            },
+            "08/26/2020": {
+                "v": 28,
+                "s": 1
+            },
+            "08/27/2020": {
+                "v": 29,
+                "s": 1
+            },
+            "08/28/2020": {
+                "v": 30,
+                "s": 1
+            },
+            "08/29/2020": {
+                "v": 31,
+                "s": 1
+            },
+            "08/30/2020": {
+                "v": 32,
+                "s": 1
+            },
+            "08/31/2020": {
+                "v": 33,
+                "s": 1
+            },
+            "09/01/2020": {
+                "v": 34,
+                "s": 1
+            },
+            "09/02/2020": {
+                "v": 35,
+                "s": 1
+            },
+            "09/03/2020": {
+                "v": 36,
+                "s": 1
+            },
+            "09/04/2020": {
+                "v": 37,
+                "s": 1
+            },
+            "09/05/2020": {
+                "v": 38,
+                "s": 1
+            },
+            "09/06/2020": {
+                "v": 39,
+                "s": 1
+            },
+            "09/07/2020": {
+                "v": 40,
+                "s": 1
+            },
+            "09/08/2020": {
+                "v": 41,
+                "s": 1
+            },
+            "09/09/2020": {
+                "v": 42,
+                "s": 1
+            },
+            "09/10/2020": {
+                "v": 43,
+                "s": 1
+            },
+            "09/11/2020": {
+                "v": 44,
+                "s": 1
+            },
+            "09/12/2020": {
+                "v": 45,
+                "s": 1
+            },
+            "09/13/2020": {
+                "v": 46,
+                "s": 1
+            },
+            "09/14/2020": {
+                "v": 47,
+                "s": 1
+            },
+            "09/15/2020": {
+                "v": 0,
+                "s": 1
+            },
+            "09/16/2020": {
+                "v": 1,
+                "s": 1
+            },
+            "09/17/2020": {
+                "v": 2,
+                "s": 1
+            },
+            "09/18/2020": {
+                "v": 3,
+                "s": 1
+            },
+            "09/19/2020": {
+                "v": 4,
+                "s": 1
+            },
+            "09/20/2020": {
+                "v": 5,
+                "s": 1
+            },
+            "09/21/2020": {
+                "v": 6,
+                "s": 1
+            },
+            "09/22/2020": {
+                "v": 7,
+                "s": 1
+            },
+            "09/23/2020": {
+                "v": 8,
+                "s": 1
+            },
+            "09/24/2020": {
+                "v": 9,
+                "s": 1
+            },
+            "09/25/2020": {
+                "v": 10,
+                "s": 1
+            },
+            "09/26/2020": {
+                "v": 11,
+                "s": 1
+            },
+            "09/27/2020": {
+                "v": 12,
+                "s": 1
+            },
+            "09/28/2020": {
+                "v": 13,
+                "s": 1
+            },
+            "09/29/2020": {
+                "v": 14,
+                "s": 1
+            },
+            "09/30/2020": {
+                "v": 15,
+                "s": 1
+            },
+            "10/01/2020": {
+                "v": 16,
+                "s": 1
+            },
+            "10/02/2020": {
+                "v": 17,
+                "s": 1
+            },
+            "10/03/2020": {
+                "v": 18,
+                "s": 1
+            },
+            "10/04/2020": {
+                "v": 19,
+                "s": 1
+            },
+            "10/05/2020": {
+                "v": 20,
+                "s": 1
+            },
+            "10/06/2020": {
+                "v": 21,
+                "s": 1
+            },
+            "10/07/2020": {
+                "v": 22,
+                "s": 1
+            },
+            "10/08/2020": {
+                "v": 23,
+                "s": 1
+            },
+            "10/09/2020": {
+                "v": 24,
+                "s": 1
+            },
+            "10/10/2020": {
+                "v": 25,
+                "s": 1
+            },
+            "10/11/2020": {
+                "v": 26,
+                "s": 1
+            },
+            "10/12/2020": {
+                "v": 27,
+                "s": 1
+            },
+            "10/13/2020": {
+                "v": 28,
+                "s": 1
+            },
+            "10/14/2020": {
+                "v": 29,
+                "s": 1
+            },
+            "10/15/2020": {
+                "v": 30,
+                "s": 1
+            },
+            "10/16/2020": {
+                "v": 31,
+                "s": 1
+            },
+            "10/17/2020": {
+                "v": 32,
+                "s": 1
+            },
+            "10/18/2020": {
+                "v": 33,
+                "s": 1
+            },
+            "10/19/2020": {
+                "v": 34,
+                "s": 1
+            },
+            "10/20/2020": {
+                "v": 35,
+                "s": 1
+            },
+            "10/21/2020": {
+                "v": 36,
+                "s": 1
+            },
+            "10/22/2020": {
+                "v": 37,
+                "s": 1
+            },
+            "10/23/2020": {
+                "v": 38,
+                "s": 1
+            },
+            "10/24/2020": {
+                "v": 39,
+                "s": 1
+            },
+            "10/25/2020": {
+                "v": 40,
+                "s": 1
+            },
+            "10/26/2020": {
+                "v": 41,
+                "s": 1
+            },
+            "10/27/2020": {
+                "v": 42,
+                "s": 1
+            },
+            "10/28/2020": {
+                "v": 43,
+                "s": 1
+            },
+            "10/29/2020": {
+                "v": 44,
+                "s": 1
+            },
+            "10/30/2020": {
+                "v": 45,
+                "s": 1
+            },
+            "10/31/2020": {
+                "v": 46,
+                "s": 1
+            },
+            "11/01/2020": {
+                "v": 47,
+                "s": 1
+            },
+            "11/02/2020": {
+                "v": 0,
+                "s": 1
+            },
+            "11/03/2020": {
+                "v": 1,
+                "s": 1
+            },
+            "11/04/2020": {
+                "v": 2,
+                "s": 1
+            },
+            "11/05/2020": {
+                "v": 3,
+                "s": 1
+            },
+            "11/06/2020": {
+                "v": 4,
+                "s": 1
+            },
+            "11/07/2020": {
+                "v": 5,
+                "s": 1
+            },
+            "11/08/2020": {
+                "v": 6,
+                "s": 1
+            },
+            "11/09/2020": {
+                "v": 7,
+                "s": 1
+            },
+            "11/10/2020": {
+                "v": 8,
+                "s": 1
+            },
+            "11/11/2020": {
+                "v": 9,
+                "s": 1
+            },
+            "11/12/2020": {
+                "v": 10,
+                "s": 1
+            },
+            "11/13/2020": {
+                "v": 11,
+                "s": 1
+            },
+            "11/14/2020": {
+                "v": 12,
+                "s": 1
+            },
+            "11/15/2020": {
+                "v": 13,
+                "s": 1
+            },
+            "11/16/2020": {
+                "v": 14,
+                "s": 1
+            },
+            "11/17/2020": {
+                "v": 15,
+                "s": 1
+            },
+            "11/18/2020": {
+                "v": 16,
+                "s": 1
+            },
+            "11/19/2020": {
+                "v": 17,
+                "s": 1
+            },
+            "11/20/2020": {
+                "v": 18,
+                "s": 1
+            },
+            "11/21/2020": {
+                "v": 19,
+                "s": 1
+            },
+            "11/22/2020": {
+                "v": 20,
+                "s": 1
+            },
+            "11/23/2020": {
+                "v": 21,
+                "s": 1
+            },
+            "11/24/2020": {
+                "v": 22,
+                "s": 1
+            },
+            "11/25/2020": {
+                "v": 23,
+                "s": 1
+            },
+            "11/26/2020": {
+                "v": 24,
+                "s": 1
+            },
+            "11/27/2020": {
+                "v": 25,
+                "s": 1
+            },
+            "11/28/2020": {
+                "v": 26,
+                "s": 1
+            },
+            "11/29/2020": {
+                "v": 27,
+                "s": 1
+            },
+            "11/30/2020": {
+                "v": 28,
+                "s": 1
+            },
+            "12/01/2020": {
+                "v": 29,
+                "s": 1
+            },
+            "12/02/2020": {
+                "v": 30,
+                "s": 1
+            },
+            "12/03/2020": {
+                "v": 31,
+                "s": 1
+            },
+            "12/04/2020": {
+                "v": 32,
+                "s": 1
+            },
+            "12/05/2020": {
+                "v": 33,
+                "s": 1
+            },
+            "12/06/2020": {
+                "v": 34,
+                "s": 1
+            },
+            "12/07/2020": {
+                "v": 35,
+                "s": 1
+            },
+            "12/08/2020": {
+                "v": 36,
+                "s": 1
+            },
+            "12/09/2020": {
+                "v": 37,
+                "s": 1
+            },
+            "12/10/2020": {
+                "v": 38,
+                "s": 1
+            },
+            "12/11/2020": {
+                "v": 39,
+                "s": 1
+            },
+            "12/12/2020": {
+                "v": 40,
+                "s": 1
+            },
+            "12/13/2020": {
+                "v": 41,
+                "s": 1
+            },
+            "12/14/2020": {
+                "v": 42,
+                "s": 1
+            },
+            "12/15/2020": {
+                "v": 43,
+                "s": 1
+            },
+            "12/16/2020": {
+                "v": 44,
+                "s": 1
+            },
+            "12/17/2020": {
+                "v": 45,
+                "s": 1
+            },
+            "12/18/2020": {
+                "v": 46,
+                "s": 1
+            },
+            "12/19/2020": {
+                "v": 47,
+                "s": 1
+            },
+            "12/20/2020": {
+                "v": 0,
+                "s": 1
+            },
+            "12/21/2020": {
+                "v": 1,
+                "s": 1
+            },
+            "12/22/2020": {
+                "v": 2,
+                "s": 1
+            },
+            "12/23/2020": {
+                "v": 3,
+                "s": 1
+            },
+            "12/24/2020": {
+                "v": 4,
+                "s": 1
+            },
+            "12/25/2020": {
+                "v": 5,
+                "s": 1
+            },
+            "12/26/2020": {
+                "v": 6,
+                "s": 1
+            },
+            "12/27/2020": {
+                "v": 7,
+                "s": 1
+            },
+            "12/28/2020": {
+                "v": 8,
+                "s": 1
+            },
+            "12/29/2020": {
+                "v": 9,
+                "s": 1
+            },
+            "12/30/2020": {
+                "v": 10,
+                "s": 1
+            },
+            "12/31/2020": {
+                "v": 11,
+                "s": 1
+            }
+        },
+        "saveId": 1
+    },
+    "pageContext": [
+        {
+            "origin": "filter",
+            "table": "",
+            "alias": "0",
+            "filterName": "ObservationDate",
+            "sourceId": "model000001844dc17c9f_00000002",
+            "scope": "global",
+            "hierarchyNames": [
+                "ObservationDate"
+            ],
+            "hierarchyUniqueNames": [
+                "covid_19_data_csv.ObservationDate"
+            ],
+            "exclude": false,
+            "isNamedSet": false,
+            "isModeledFilter": false,
+            "tupleSet": "{\"covid_19_data_csv.ObservationDate->[01/25/2021]\":{\"u\":\"covid_19_data_csv.ObservationDate->[01/25/2021]\",\"d\":\"01/25/2021\"}}"
+        }
+    ],
+    "dataSources": {
+        "version": "1.0",
+        "sources": [
+            {
+                "id": "model000001844dc17c9f_00000002",
+                "assetId": "iDC0CCDE167CE4287BC3F417B1413DDEF",
+                "type": "uploadedFile",
+                "name": "covid_19_data.csv",
+                "shaping": {
+                    "shapingId": "shaping000001844dfc583c_00000000",
+                    "references": {},
+                    "embeddedModuleId": "i9C6E61F4EF8A4C88A0F872851581E410",
+                    "embeddedModuleName": "model000001844dc17c9f_00000001",
+                    "embeddedModuleUpToDate": true,
+                    "moserJSON": {
+                        "version": "16.0",
+                        "container": "C",
+                        "useSpec": [
+                            {
+                                "identifier": "ES",
+                                "type": "file",
+                                "storeID": "iDC0CCDE167CE4287BC3F417B1413DDEF",
+                                "imports": "*",
+                                "ancestors": [
+                                    {
+                                        "defaultName": "Mis carpetas",
+                                        "storeID": ".my_folders"
+                                    }
+                                ],
+                                "dataCacheExpiry": "0"
+                            }
+                        ],
+                        "expressionLocale": "en-us",
+                        "lastModified": "2022-11-06T16:23:55.713Z",
+                        "querySubject": [
+                            {
+                                "ref": [
+                                    "ES.covid_19_data_csv"
+                                ],
+                                "instanceType": "reference",
+                                "item": [
+                                    {
+                                        "queryItem": {
+                                            "format": "{\"formatGroup\":{\"dateFormat\":{\"dateSeparator\":\"/\",\"dateStyle\":\"long\",\"displayOrder\":\"MDY\"}}}",
+                                            "identifier": "ObservationDate",
+                                            "propertyOverride": [
+                                                "format",
+                                                "property._MUI_format"
+                                            ],
+                                            "property": [
+                                                {
+                                                    "name": "_MUI_format",
+                                                    "value": "{\"advancedMode\":false}"
+                                                },
+                                                {
+                                                    "name": "_path",
+                                                    "value": "2"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ],
+                                "identifier": "covid_19_data_csv"
+                            }
+                        ],
+                        "dataRetrievalMode": "liveConnection",
+                        "identifier": "C_covid_19_data_csv",
+                        "label": "model000001844dc17c9f_00000001"
+                    }
+                }
+            }
+        ]
+    },
+    "layout": {
+        "id": "model000001844dc17c16_00000000",
+        "style": {
+            "height": "100%"
+        },
+        "type": "tab",
+        "showGrid": true,
+        "snapGrid": true,
+        "snapObjects": true,
+        "pageSize": {
+            "width": 1280,
+            "height": 720
+        },
+        "layoutPositioning": "relative",
+        "items": [
+            {
+                "id": "model000001844dc17c16_00000002",
+                "type": "container",
+                "title": {
+                    "translationTable": {
+                        "Default": "Dashboard Muertes/Recuperaciones COVID"
+                    }
+                },
+                "templateName": "Template9",
+                "items": [
+                    {
+                        "id": "model000001844dc17c16_00000004",
+                        "css": "templateBox aspectRatio_default",
+                        "type": "genericPage",
+                        "layoutPositioning": "relative",
+                        "items": [
+                            {
+                                "id": "model000001844dc17c16_00000006",
+                                "style": {
+                                    "top": "0%",
+                                    "left": "0%",
+                                    "right": "50%",
+                                    "bottom": "50%"
+                                },
+                                "type": "templateDropZone",
+                                "templateName": "dz1",
+                                "relatedLayouts": ""
+                            },
+                            {
+                                "id": "model000001844dc17c16_00000008",
+                                "css": "noBorderLeft",
+                                "style": {
+                                    "top": "0%",
+                                    "left": "50%",
+                                    "right": "0%",
+                                    "bottom": "50%"
+                                },
+                                "type": "templateDropZone",
+                                "templateName": "dz2",
+                                "relatedLayouts": ""
+                            },
+                            {
+                                "id": "model000001844dc17c16_0000000a",
+                                "css": "noBorderTop",
+                                "style": {
+                                    "top": "50%",
+                                    "left": "0%",
+                                    "right": "50%",
+                                    "bottom": "0%"
+                                },
+                                "type": "templateDropZone",
+                                "templateName": "dz3",
+                                "relatedLayouts": "|model000001844dc559eb_00000000|"
+                            },
+                            {
+                                "id": "model000001844dc17c17_00000000",
+                                "css": "noBorderLeft noBorderTop",
+                                "style": {
+                                    "top": "50%",
+                                    "left": "50%",
+                                    "right": "0%",
+                                    "bottom": "0%"
+                                },
+                                "type": "templateDropZone",
+                                "templateName": "dz4",
+                                "relatedLayouts": "|model000001844de1b192_00000000|"
+                            },
+                            {
+                                "id": "model000001844dc19e33_00000000",
+                                "style": {
+                                    "left": "0%",
+                                    "top": "0%",
+                                    "height": "49.996879388360114%",
+                                    "width": "100%"
+                                },
+                                "type": "widget",
+                                "relatedLayouts": "",
+                                "features": {
+                                    "Models_internal": {
+                                        "type": "live",
+                                        "id": "model000001844dc19e33_00000000",
+                                        "visId": "com.ibm.vis.rave2bundletiledmap",
+                                        "titleHtml": {
+                                            "translationTable": {
+                                                "Default": "<div class=\"widgetTitle mediumTitle\" title=\"Country/Region, Province/State\" aria-labelledby=\"model000001844dc19e33_00000000Title\" walkme-data-id=\"widgetTitle\"><div class=\"textArea hidden\"><div class=\"summernote\" style=\"display: none;\"></div><div class=\"note-editor\"><div class=\"note-dropzone\">  <div class=\"note-dropzone-message\"></div></div><div class=\"note-editing-area\"><div class=\"note-handle\"><div class=\"note-control-selection\"><div class=\"note-control-selection-bg\"></div><div class=\"note-control-holder note-control-nw\"></div><div class=\"note-control-holder note-control-ne\"></div><div class=\"note-control-holder note-control-sw\"></div><div class=\"note-control-sizing note-control-se\"></div><div class=\"note-control-selection-info\"></div></div></div><div class=\"note-editable\" contenteditable=\"false\" id=\"model000001844dc19e33_00000000Title\"><span class=\"textFitted responsiveColor responsiveFontSize responsiveFontFamily\"><p><span>Deaths por Country/Region y Recovered por Country/Region</span></p></span></div></div></div></div></div>"
+                                            }
+                                        },
+                                        "titleMode": "smartTitle",
+                                        "name": {
+                                            "translationTable": {
+                                                "Default": "Deaths por Country/Region y Recovered por Country/Region"
+                                            }
+                                        },
+                                        "data": {
+                                            "dataViews": [
+                                                {
+                                                    "id": "model000001844dc1a282_00000000",
+                                                    "modelRef": "model000001844dc17c9f_00000002",
+                                                    "dataItems": [
+                                                        {
+                                                            "itemId": "covid_19_data_csv.Country_Region",
+                                                            "itemLabel": "Country/Region",
+                                                            "navigationPathId": null,
+                                                            "id": "id_880520483"
+                                                        },
+                                                        {
+                                                            "id": "id1227397986",
+                                                            "itemId": "covid_19_data_csv.Deaths",
+                                                            "itemLabel": "Deaths"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "model000001844dc34443_00000000",
+                                                    "modelRef": "model000001844dc17c9f_00000002",
+                                                    "dataItems": [
+                                                        {
+                                                            "id": "id1535718059",
+                                                            "itemId": "covid_19_data_csv.Recovered",
+                                                            "itemLabel": "Recovered"
+                                                        },
+                                                        {
+                                                            "id": "id_1157922296",
+                                                            "itemId": "covid_19_data_csv.Country_Region",
+                                                            "itemLabel": "Country/Region"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "slotmapping": {
+                                            "slots": [
+                                                {
+                                                    "name": "locations",
+                                                    "dataItems": [
+                                                        "id_880520483"
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "locationColor",
+                                                    "dataItems": [
+                                                        "id1227397986"
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "pointColor",
+                                                    "dataItems": [
+                                                        "id1535718059"
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "pointLocations",
+                                                    "dataItems": [
+                                                        "id_1157922296"
+                                                    ]
+                                                }
+                                            ],
+                                            "multiMeasureGroups": {}
+                                        },
+                                        "annotations": {
+                                            "selectedAnnotations": [
+                                                "AVERAGE",
+                                                "MEANINGFUL_DIFFERENCES"
+                                            ],
+                                            "toggleEnabled": true
+                                        },
+                                        "properties": [
+                                            {
+                                                "id": "latLong.grouping.mode",
+                                                "value": "cluster"
+                                            },
+                                            {
+                                                "id": "interactivityState",
+                                                "value": {
+                                                    "svc": 1,
+                                                    "sub": [
+                                                        {
+                                                            "i": 0,
+                                                            "s": {
+                                                                "version": 1,
+                                                                "boundingBox": [
+                                                                    [
+                                                                        -74.42882503553055,
+                                                                        20.038537040663556
+                                                                    ],
+                                                                    [
+                                                                        246.34284455265725,
+                                                                        68.23269672931647
+                                                                    ]
+                                                                ],
+                                                                "pitch": 0,
+                                                                "bearing": 0
+                                                            }
+                                                        }
+                                                    ],
+                                                    "ltid": "GridLayouter",
+                                                    "lts": null
+                                                }
+                                            }
+                                        ],
+                                        "savedPrompts": null
+                                    }
+                                }
+                            },
+                            {
+                                "id": "model000001844dc559eb_00000000",
+                                "style": {
+                                    "height": "49.996879388360114%",
+                                    "width": "50%",
+                                    "top": "49.83226712435637%",
+                                    "left": "0%"
+                                },
+                                "type": "widget",
+                                "relatedLayouts": "model000001844dc17c16_0000000a",
+                                "features": {
+                                    "Models_internal": {
+                                        "type": "live",
+                                        "id": "model000001844dc559eb_00000000",
+                                        "visId": "com.ibm.vis.rave2bundlestackedcolumn",
+                                        "titleHtml": {
+                                            "translationTable": {
+                                                "Default": "<div class=\"widgetTitle mediumTitle\" title=\"Muertes por País\" aria-labelledby=\"model000001844dc559eb_00000000Title\" walkme-data-id=\"widgetTitle\"><div class=\"textArea\"><div class=\"summernote\" style=\"display: none;\"></div><div class=\"note-editor\"><div class=\"note-dropzone\">  <div class=\"note-dropzone-message\"></div></div><div class=\"note-editing-area\"><div class=\"note-handle\"><div class=\"note-control-selection\" style=\"display: none;\"><div class=\"note-control-selection-bg\"></div><div class=\"note-control-holder note-control-nw\"></div><div class=\"note-control-holder note-control-ne\"></div><div class=\"note-control-holder note-control-sw\"></div><div class=\"note-control-sizing note-control-se\"></div><div class=\"note-control-selection-info\"></div></div></div><div class=\"note-editable\" contenteditable=\"true\" id=\"model000001844dc559eb_00000000Title\"><span class=\"textFitted responsiveColor responsiveFontSize responsiveFontFamily\"><p><span>Muertes por País</span></p></span></div></div></div></div></div>"
+                                            }
+                                        },
+                                        "titleMode": "customTitle",
+                                        "name": {
+                                            "translationTable": {
+                                                "Default": "Muertes por País"
+                                            }
+                                        },
+                                        "data": {
+                                            "dataViews": [
+                                                {
+                                                    "id": "model000001844ddaffad_00000000",
+                                                    "modelRef": "model000001844dc17c9f_00000002",
+                                                    "dataItems": [
+                                                        {
+                                                            "id": "id_880520483",
+                                                            "itemId": "covid_19_data_csv.Country_Region",
+                                                            "itemLabel": "Country/Region"
+                                                        },
+                                                        {
+                                                            "id": "id_1037112449",
+                                                            "itemId": "covid_19_data_csv.Deaths",
+                                                            "itemLabel": "Deaths"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "visTypeLocked": true,
+                                        "slotmapping": {
+                                            "slots": [
+                                                {
+                                                    "name": "categories",
+                                                    "dataItems": [
+                                                        "id_880520483"
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "values",
+                                                    "dataItems": [
+                                                        "id_1037112449"
+                                                    ]
+                                                }
+                                            ],
+                                            "multiMeasureGroups": {
+                                                "data": {
+                                                    "slotId": "color",
+                                                    "position": 0
+                                                }
+                                            }
+                                        },
+                                        "annotations": {
+                                            "selectedAnnotations": [
+                                                "AVERAGE",
+                                                "MEANINGFUL_DIFFERENCES"
+                                            ]
+                                        },
+                                        "savedPrompts": null
+                                    }
+                                }
+                            },
+                            {
+                                "id": "model000001844de1b192_00000000",
+                                "style": {
+                                    "height": "49.99785457949758%",
+                                    "width": "50%",
+                                    "top": "49.83226712435637%",
+                                    "left": "50%"
+                                },
+                                "type": "widget",
+                                "relatedLayouts": "model000001844dc17c17_00000000",
+                                "features": {
+                                    "Models_internal": {
+                                        "type": "live",
+                                        "id": "model000001844de1b192_00000000",
+                                        "visId": "com.ibm.vis.ravebubble",
+                                        "titleHtml": {
+                                            "translationTable": {
+                                                "Default": "<div class=\"widgetTitle mediumTitle\" title=\"Country/Region y Deaths con Recovered\" aria-labelledby=\"model000001844de1b192_00000000Title\" walkme-data-id=\"widgetTitle\"><div class=\"textArea hidden\"><div class=\"summernote\" style=\"display: none;\"></div><div class=\"note-editor\"><div class=\"note-dropzone\">  <div class=\"note-dropzone-message\"></div></div><div class=\"note-editing-area\"><div class=\"note-handle\"><div class=\"note-control-selection\"><div class=\"note-control-selection-bg\"></div><div class=\"note-control-holder note-control-nw\"></div><div class=\"note-control-holder note-control-ne\"></div><div class=\"note-control-holder note-control-sw\"></div><div class=\"note-control-sizing note-control-se\"></div><div class=\"note-control-selection-info\"></div></div></div><div class=\"note-editable\" contenteditable=\"false\" id=\"model000001844de1b192_00000000Title\"><span class=\"textFitted responsiveColor responsiveFontSize responsiveFontFamily\"><p><span>Country/Region y Deaths con Recovered</span></p></span></div></div></div></div></div>"
+                                            }
+                                        },
+                                        "titleMode": "smartTitle",
+                                        "name": {
+                                            "translationTable": {
+                                                "Default": "Country/Region y Deaths con Recovered"
+                                            }
+                                        },
+                                        "data": {
+                                            "dataViews": [
+                                                {
+                                                    "id": "model000001844de201c3_00000000",
+                                                    "modelRef": "model000001844dc17c9f_00000002",
+                                                    "dataItems": [
+                                                        {
+                                                            "id": "id_880520483",
+                                                            "itemId": "covid_19_data_csv.Country_Region",
+                                                            "itemLabel": "Country/Region"
+                                                        },
+                                                        {
+                                                            "id": "id_807280125",
+                                                            "itemId": "covid_19_data_csv.Recovered",
+                                                            "itemLabel": "Recovered"
+                                                        },
+                                                        {
+                                                            "id": "id_1037112449",
+                                                            "itemId": "covid_19_data_csv.Deaths",
+                                                            "itemLabel": "Deaths"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "visTypeLocked": true,
+                                        "slotmapping": {
+                                            "slots": [
+                                                {
+                                                    "name": "x",
+                                                    "dataItems": [
+                                                        "id_880520483"
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "size",
+                                                    "dataItems": [
+                                                        "id_807280125"
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "y",
+                                                    "dataItems": [
+                                                        "id_1037112449"
+                                                    ]
+                                                }
+                                            ],
+                                            "multiMeasureGroups": {}
+                                        },
+                                        "annotations": {
+                                            "selectedAnnotations": []
+                                        },
+                                        "savedPrompts": null
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
